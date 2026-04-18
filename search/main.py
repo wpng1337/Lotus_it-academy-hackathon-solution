@@ -1,5 +1,6 @@
 import logging
 import os
+import asyncio
 from contextlib import asynccontextmanager
 from functools import lru_cache
 from typing import Any
@@ -174,7 +175,7 @@ app = FastAPI(title="Search Service", version="0.1.0", lifespan=lifespan)
 DENSE_PREFETCH_K = 50
 SPARSE_PREFETCH_K = 150
 RETRIEVE_K = 100
-RERANK_LIMIT = 50
+RERANK_LIMIT = 15
 
 async def embed_dense(client: httpx.AsyncClient, text: str) -> list[float]:
     # Dense endpoint ожидает OpenAI-compatible body с input как списком строк.
@@ -256,18 +257,27 @@ async def get_rerank_scores(
     if not targets:
         return []
 
-    # Rerank endpoint возвращает score для пары query -> candidate text.
-    response = await client.post(
-        RERANKER_URL,
-        **get_upstream_request_kwargs(),
-        json={
-            "model": RERANKER_MODEL,
-            "encoding_format": "float",
-            "text_1": label,
-            "text_2": targets,
-        },
-    )
-    response.raise_for_status()
+    # Retry с backoff при 429
+    for attempt in range(3):
+        response = await client.post(
+            RERANKER_URL,
+            **get_upstream_request_kwargs(),
+            json={
+                "model": RERANKER_MODEL,
+                "encoding_format": "float",
+                "text_1": label,
+                "text_2": targets,
+            },
+        )
+        if response.status_code == 429:
+            wait = 2 ** attempt
+            logger.warning(f"Rerank 429, retry {attempt+1}/3 in {wait}s")
+            await asyncio.sleep(wait)
+            continue
+        response.raise_for_status()
+        break
+    else:
+        response.raise_for_status()  # последняя попытка — пусть упадёт
 
     payload = response.json()
     data = payload.get("data") or []
