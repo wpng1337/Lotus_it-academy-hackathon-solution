@@ -1,0 +1,1267 @@
+{
+  "chat": {
+    "id": "94707@chat.example",
+    "name": "Security Team",
+    "sn": "94707@chat.example",
+    "type": "group",
+    "is_public": false,
+    "members_count": 25,
+    "members": null
+  },
+  "messages": [
+    {
+      "id": "1000010400",
+      "thread_sn": null,
+      "time": 1672531643,
+      "text": "Зависимость log4j обнаружена в 3 сервисах. Патч применён",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010401",
+      "thread_sn": null,
+      "time": 1672531877,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010402",
+      "thread_sn": null,
+      "time": 1672531975,
+      "text": "SAST сканирование показало 12 потенциальных уязвимостей в новом коде",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010403",
+      "thread_sn": null,
+      "time": 1672537317,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "l.alekseeva@corp.example",
+          "time": 1672497715,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000010404",
+      "thread_sn": null,
+      "time": 1672539975,
+      "text": "Сертификаты TLS обновлены. Срок действия — до декабря 2025\n@l.alekseeva",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010405",
+      "thread_sn": null,
+      "time": 1672543758,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Зависимость log4j обнаружена в 3 сервисах. Патч применён"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000010406",
+      "thread_sn": null,
+      "time": 1672545653,
+      "text": "VPN конфигурация обновлена. Новый профиль в корпоративном портале",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010407",
+      "thread_sn": null,
+      "time": 1672551644,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Penetration test завершён. Найдено 2 High, 5 Medium уязвимостей. Отчёт в Jira"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000010408",
+      "thread_sn": null,
+      "time": 1672552611,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "i.novikov@corp.example",
+          "time": 1672499262,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000010409",
+      "thread_sn": null,
+      "time": 1672554882,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "Зависимость log4j обнаружена в 3 сервисах. Патч применён"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000010410",
+      "thread_sn": null,
+      "time": 1672561906,
+      "text": "WAF правила обновлены. Блокируем новые паттерны SQL injection",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010411",
+      "thread_sn": null,
+      "time": 1672564264,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "SOC2 аудит запланирован на сентябрь. Нужно подготовить документацию"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000010412",
+      "thread_sn": null,
+      "time": 1672568899,
+      "text": "Внедрили 2FA для всех сервисов. Обязательно до конца недели\n@a.ivanov",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010413",
+      "thread_sn": null,
+      "time": 1672569066,
+      "text": "Внедрили 2FA для всех сервисов. Обязательно до конца недели",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010414",
+      "thread_sn": null,
+      "time": 1672575365,
+      "text": "Фишинговая атака на сотрудников. Напоминаю: не открывайте подозрительные ссылки",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010415",
+      "thread_sn": null,
+      "time": 1672576290,
+      "text": "Сертификаты TLS обновлены. Срок действия — до декабря 2025",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010416",
+      "thread_sn": null,
+      "time": 1672577889,
+      "text": "Сертификаты TLS обновлены. Срок действия — до декабря 2025",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010417",
+      "thread_sn": null,
+      "time": 1672578826,
+      "text": "Penetration test завершён. Найдено 2 High, 5 Medium уязвимостей. Отчёт в Jira",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010418",
+      "thread_sn": null,
+      "time": 1672581769,
+      "text": "WAF правила обновлены. Блокируем новые паттерны SQL injection\n@n.mikhailova",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010419",
+      "thread_sn": null,
+      "time": 1672584562,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "VPN конфигурация обновлена. Новый профиль в корпоративном портале"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000010420",
+      "thread_sn": null,
+      "time": 1672587030,
+      "text": "Фишинговая атака на сотрудников. Напоминаю: не открывайте подозрительные ссылки",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010421",
+      "thread_sn": null,
+      "time": 1672587498,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Penetration test завершён. Найдено 2 High, 5 Medium уязвимостей. Отчёт в Jira"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000010422",
+      "thread_sn": null,
+      "time": 1672588097,
+      "text": "VPN конфигурация обновлена. Новый профиль в корпоративном портале",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010423",
+      "thread_sn": null,
+      "time": 1672594169,
+      "text": "SOC2 аудит запланирован на сентябрь. Нужно подготовить документацию",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010424",
+      "thread_sn": null,
+      "time": 1672594254,
+      "text": "SOC2 аудит запланирован на сентябрь. Нужно подготовить документацию",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010425",
+      "thread_sn": null,
+      "time": 1672595708,
+      "text": "Фишинговая атака на сотрудников. Напоминаю: не открывайте подозрительные ссылки\n@k.volkov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010426",
+      "thread_sn": null,
+      "time": 1672599273,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010427",
+      "thread_sn": null,
+      "time": 1672599963,
+      "text": "Фишинговая атака на сотрудников. Напоминаю: не открывайте подозрительные ссылки",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010428",
+      "thread_sn": null,
+      "time": 1672602050,
+      "text": "SOC2 аудит запланирован на сентябрь. Нужно подготовить документацию",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010429",
+      "thread_sn": null,
+      "time": 1672603480,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1672535568,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000010430",
+      "thread_sn": null,
+      "time": 1672609559,
+      "text": "Зависимость log4j обнаружена в 3 сервисах. Патч применён",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010431",
+      "thread_sn": null,
+      "time": 1672612085,
+      "text": "Сертификаты TLS обновлены. Срок действия — до декабря 2025",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010432",
+      "thread_sn": null,
+      "time": 1672616399,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010433",
+      "thread_sn": null,
+      "time": 1672623473,
+      "text": "WAF правила обновлены. Блокируем новые паттерны SQL injection",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010434",
+      "thread_sn": null,
+      "time": 1672627061,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1672609315,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000010435",
+      "thread_sn": null,
+      "time": 1672629364,
+      "text": "SAST сканирование показало 12 потенциальных уязвимостей в новом коде\n@o.nikolaev",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010436",
+      "thread_sn": null,
+      "time": 1672632137,
+      "text": "WAF правила обновлены. Блокируем новые паттерны SQL injection\n@n.mikhailova",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010437",
+      "thread_sn": null,
+      "time": 1672639030,
+      "text": "Зависимость log4j обнаружена в 3 сервисах. Патч применён",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010438",
+      "thread_sn": null,
+      "time": 1672643177,
+      "text": "SOC2 аудит запланирован на сентябрь. Нужно подготовить документацию",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010439",
+      "thread_sn": null,
+      "time": 1672645724,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Penetration test завершён. Найдено 2 High, 5 Medium уязвимостей. Отчёт в Jira"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000010440",
+      "thread_sn": null,
+      "time": 1672652546,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Зависимость log4j обнаружена в 3 сервисах. Патч применён"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000010441",
+      "thread_sn": null,
+      "time": 1672654665,
+      "text": "SAST сканирование показало 12 потенциальных уязвимостей в новом коде\n@m.fedorov",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010442",
+      "thread_sn": null,
+      "time": 1672655893,
+      "text": "Penetration test завершён. Найдено 2 High, 5 Medium уязвимостей. Отчёт в Jira",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010443",
+      "thread_sn": null,
+      "time": 1672662602,
+      "text": "Внедрили 2FA для всех сервисов. Обязательно до конца недели",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010444",
+      "thread_sn": null,
+      "time": 1672667552,
+      "text": "Сертификаты TLS обновлены. Срок действия — до декабря 2025\n@f.sokolova",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010445",
+      "thread_sn": null,
+      "time": 1672671022,
+      "text": "Фишинговая атака на сотрудников. Напоминаю: не открывайте подозрительные ссылки",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010446",
+      "thread_sn": null,
+      "time": 1672677912,
+      "text": "SAST сканирование показало 12 потенциальных уязвимостей в новом коде",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010447",
+      "thread_sn": null,
+      "time": 1672681808,
+      "text": "Penetration test завершён. Найдено 2 High, 5 Medium уязвимостей. Отчёт в Jira",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010448",
+      "thread_sn": null,
+      "time": 1672688149,
+      "text": "WAF правила обновлены. Блокируем новые паттерны SQL injection",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010449",
+      "thread_sn": null,
+      "time": 1672693295,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "j.morozov@corp.example",
+          "text": "VPN конфигурация обновлена. Новый профиль в корпоративном портале"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "j.morozov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000010450",
+      "thread_sn": null,
+      "time": 1672698844,
+      "text": "Penetration test завершён. Найдено 2 High, 5 Medium уязвимостей. Отчёт в Jira\n@l.alekseeva",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010451",
+      "thread_sn": null,
+      "time": 1672704227,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "i.novikov@corp.example",
+          "time": 1672637521,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000010452",
+      "thread_sn": null,
+      "time": 1672709944,
+      "text": "SAST сканирование показало 12 потенциальных уязвимостей в новом коде",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010453",
+      "thread_sn": null,
+      "time": 1672711683,
+      "text": "WAF правила обновлены. Блокируем новые паттерны SQL injection",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010454",
+      "thread_sn": null,
+      "time": 1672713010,
+      "text": "Фишинговая атака на сотрудников. Напоминаю: не открывайте подозрительные ссылки",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010455",
+      "thread_sn": null,
+      "time": 1672713620,
+      "text": "WAF правила обновлены. Блокируем новые паттерны SQL injection",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010456",
+      "thread_sn": null,
+      "time": 1672720501,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "l.alekseeva@corp.example",
+          "time": 1672663875,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000010457",
+      "thread_sn": null,
+      "time": 1672724523,
+      "text": "Сертификаты TLS обновлены. Срок действия — до декабря 2025",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010458",
+      "thread_sn": null,
+      "time": 1672729638,
+      "text": "WAF правила обновлены. Блокируем новые паттерны SQL injection\n@n.mikhailova",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010459",
+      "thread_sn": null,
+      "time": 1672733633,
+      "text": "Зависимость log4j обнаружена в 3 сервисах. Патч применён",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010460",
+      "thread_sn": null,
+      "time": 1672739408,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "m.fedorov@corp.example",
+          "text": "SOC2 аудит запланирован на сентябрь. Нужно подготовить документацию"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000010461",
+      "thread_sn": null,
+      "time": 1672744090,
+      "text": "",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010462",
+      "thread_sn": null,
+      "time": 1672744429,
+      "text": "Зависимость log4j обнаружена в 3 сервисах. Патч применён",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010463",
+      "thread_sn": null,
+      "time": 1672750412,
+      "text": "SAST сканирование показало 12 потенциальных уязвимостей в новом коде",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010464",
+      "thread_sn": null,
+      "time": 1672754773,
+      "text": "Сертификаты TLS обновлены. Срок действия — до декабря 2025",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010465",
+      "thread_sn": null,
+      "time": 1672761277,
+      "text": "VPN конфигурация обновлена. Новый профиль в корпоративном портале\n@o.nikolaev",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010466",
+      "thread_sn": null,
+      "time": 1672765201,
+      "text": "SAST сканирование показало 12 потенциальных уязвимостей в новом коде",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010467",
+      "thread_sn": null,
+      "time": 1672770084,
+      "text": "Penetration test завершён. Найдено 2 High, 5 Medium уязвимостей. Отчёт в Jira\n@g.lebedev",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010468",
+      "thread_sn": null,
+      "time": 1672775593,
+      "text": "WAF правила обновлены. Блокируем новые паттерны SQL injection",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000010469",
+      "thread_sn": null,
+      "time": 1672781654,
+      "text": "VPN конфигурация обновлена. Новый профиль в корпоративном портале",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    }
+  ]
+}

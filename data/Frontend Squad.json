@@ -1,0 +1,2744 @@
+{
+  "chat": {
+    "id": "29313@chat.example",
+    "name": "Frontend Squad",
+    "sn": "29313@chat.example",
+    "type": "group",
+    "is_public": true,
+    "members_count": 80,
+    "members": null
+  },
+  "messages": [
+    {
+      "id": "1000001200",
+      "thread_sn": null,
+      "time": 1672534423,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1672486876,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001201",
+      "thread_sn": null,
+      "time": 1672540965,
+      "text": "Как правильно организовать state management в большом приложении? Redux vs Zustand?",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001202",
+      "thread_sn": null,
+      "time": 1672544867,
+      "text": "",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "e.popov@corp.example",
+          "text": "Обнаружил проблему с гидратацией в Next.js 15. При SSR получаем мисматч"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001203",
+      "thread_sn": null,
+      "time": 1672550884,
+      "text": "Написал кастомный хук useDebounce для поиска. Уменьшает количество запросов на 80%\n@f.sokolova",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001204",
+      "thread_sn": null,
+      "time": 1672557447,
+      "text": "Нужен фидбек по новому UI для дашборда аналитики. Скриншоты в тикете",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001205",
+      "thread_sn": null,
+      "time": 1672562217,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Предлагаю внедрить Storybook для документации компонентов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001206",
+      "thread_sn": null,
+      "time": 1672565689,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "d.kuznetsova@corp.example",
+          "time": 1672493138,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001207",
+      "thread_sn": null,
+      "time": 1672570206,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "b.petrov@corp.example",
+          "text": "Проблема с CORS при запросах к API из dev-окружения. Кто знает как починить?"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001208",
+      "thread_sn": null,
+      "time": 1672575473,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "Добавил поддержку темной темы. Используем CSS custom properties"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001209",
+      "thread_sn": null,
+      "time": 1672577508,
+      "text": "Предлагаю внедрить Storybook для документации компонентов\n@g.lebedev",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001210",
+      "thread_sn": null,
+      "time": 1672584232,
+      "text": "Как правильно организовать state management в большом приложении? Redux vs Zustand?",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001211",
+      "thread_sn": null,
+      "time": 1672585396,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Обнаружил проблему с гидратацией в Next.js 15. При SSR получаем мисматч"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001212",
+      "thread_sn": null,
+      "time": 1672585799,
+      "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001213",
+      "thread_sn": null,
+      "time": 1672591158,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "a.ivanov@corp.example",
+          "text": "Миграция с Webpack на Vite завершена. Время сборки сократилось с 2 мин до 8 сек"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001214",
+      "thread_sn": null,
+      "time": 1672592237,
+      "text": "Lighthouse score упал до 65. Нужно оптимизировать LCP и CLS",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001215",
+      "thread_sn": null,
+      "time": 1672597966,
+      "text": "Кто-нибудь работал с Tanstack Router? Хочу заменить React Router",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001216",
+      "thread_sn": null,
+      "time": 1672602961,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "a.ivanov@corp.example",
+          "text": "Миграция с Webpack на Vite завершена. Время сборки сократилось с 2 мин до 8 сек"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001217",
+      "thread_sn": null,
+      "time": 1672606673,
+      "text": "TypeScript 5.5 вышел. Кто уже обновился? Есть проблемы с совместимостью?\n@g.lebedev",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001218",
+      "thread_sn": null,
+      "time": 1672610296,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "Миграция с Webpack на Vite завершена. Время сборки сократилось с 2 мин до 8 сек"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001219",
+      "thread_sn": null,
+      "time": 1672614559,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1672553527,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001220",
+      "thread_sn": null,
+      "time": 1672614904,
+      "text": "Lighthouse score упал до 65. Нужно оптимизировать LCP и CLS",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001221",
+      "thread_sn": null,
+      "time": 1672616220,
+      "text": "Кто-нибудь работал с Tanstack Router? Хочу заменить React Router",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001222",
+      "thread_sn": null,
+      "time": 1672619540,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "j.morozov@corp.example",
+          "text": "Как правильно организовать state management в большом приложении? Redux vs Zustand?"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "j.morozov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001223",
+      "thread_sn": null,
+      "time": 1672623841,
+      "text": "Как правильно организовать state management в большом приложении? Redux vs Zustand?",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001224",
+      "thread_sn": null,
+      "time": 1672626240,
+      "text": "",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Дизайн-система обновлена. Новые компоненты: DatePicker, ComboBox, DataTable"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001225",
+      "thread_sn": null,
+      "time": 1672632939,
+      "text": "Как правильно организовать state management в большом приложении? Redux vs Zustand?\n@e.popov",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001226",
+      "thread_sn": null,
+      "time": 1672635456,
+      "text": "Добавил поддержку темной темы. Используем CSS custom properties",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001227",
+      "thread_sn": null,
+      "time": 1672637162,
+      "text": "Нужен фидбек по новому UI для дашборда аналитики. Скриншоты в тикете",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001228",
+      "thread_sn": null,
+      "time": 1672641741,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "k.volkov@corp.example",
+          "time": 1672575402,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001229",
+      "thread_sn": null,
+      "time": 1672646107,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "j.morozov@corp.example",
+          "text": "Предлагаю внедрить Storybook для документации компонентов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "j.morozov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001230",
+      "thread_sn": null,
+      "time": 1672649983,
+      "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001231",
+      "thread_sn": null,
+      "time": 1672651100,
+      "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный\n@h.kozlova",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001232",
+      "thread_sn": null,
+      "time": 1672656970,
+      "text": "Проблема с CORS при запросах к API из dev-окружения. Кто знает как починить?\n@f.sokolova",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001233",
+      "thread_sn": null,
+      "time": 1672661542,
+      "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001234",
+      "thread_sn": null,
+      "time": 1672666358,
+      "text": "Предлагаю внедрить Storybook для документации компонентов",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001235",
+      "thread_sn": null,
+      "time": 1672673178,
+      "text": "Написал кастомный хук useDebounce для поиска. Уменьшает количество запросов на 80%",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001236",
+      "thread_sn": null,
+      "time": 1672676650,
+      "text": "Написал кастомный хук useDebounce для поиска. Уменьшает количество запросов на 80%",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001237",
+      "thread_sn": null,
+      "time": 1672678716,
+      "text": "Дизайн-система обновлена. Новые компоненты: DatePicker, ComboBox, DataTable",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001238",
+      "thread_sn": null,
+      "time": 1672680447,
+      "text": "Как правильно организовать state management в большом приложении? Redux vs Zustand?",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001239",
+      "thread_sn": null,
+      "time": 1672683773,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Обнаружил проблему с гидратацией в Next.js 15. При SSR получаем мисматч"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001240",
+      "thread_sn": null,
+      "time": 1672686024,
+      "text": "",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "k.volkov@corp.example",
+          "time": 1672601766,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001241",
+      "thread_sn": null,
+      "time": 1672689509,
+      "text": "Написал E2E тесты на Playwright. Покрытие основных сценариев — 85%",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001242",
+      "thread_sn": null,
+      "time": 1672695820,
+      "text": "Написал кастомный хук useDebounce для поиска. Уменьшает количество запросов на 80%",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001243",
+      "thread_sn": null,
+      "time": 1672699101,
+      "text": "Перешли на React 19 — Server Components работают отлично. Bundle уменьшился на 30%\n@j.morozov",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "j.morozov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001244",
+      "thread_sn": null,
+      "time": 1672706065,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Кто-нибудь работал с Tanstack Router? Хочу заменить React Router"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001245",
+      "thread_sn": null,
+      "time": 1672708291,
+      "text": "Нужен фидбек по новому UI для дашборда аналитики. Скриншоты в тикете",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001246",
+      "thread_sn": null,
+      "time": 1672710715,
+      "text": "Проблема с CORS при запросах к API из dev-окружения. Кто знает как починить?",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001247",
+      "thread_sn": null,
+      "time": 1672711748,
+      "text": "Предлагаю внедрить Storybook для документации компонентов",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001248",
+      "thread_sn": null,
+      "time": 1672712989,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "Перешли на React 19 — Server Components работают отлично. Bundle уменьшился на 30%"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001249",
+      "thread_sn": null,
+      "time": 1672719635,
+      "text": "Дизайн-система обновлена. Новые компоненты: DatePicker, ComboBox, DataTable",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001250",
+      "thread_sn": null,
+      "time": 1672721026,
+      "text": "Предлагаю внедрить Storybook для документации компонентов",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001251",
+      "thread_sn": null,
+      "time": 1672725098,
+      "text": "Миграция с Webpack на Vite завершена. Время сборки сократилось с 2 мин до 8 сек\n@k.volkov",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001252",
+      "thread_sn": null,
+      "time": 1672731685,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001253",
+      "thread_sn": null,
+      "time": 1672733920,
+      "text": "Как правильно организовать state management в большом приложении? Redux vs Zustand?\n@j.morozov",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "j.morozov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001254",
+      "thread_sn": null,
+      "time": 1672739132,
+      "text": "Обнаружил проблему с гидратацией в Next.js 15. При SSR получаем мисматч\n@d.kuznetsova",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001255",
+      "thread_sn": null,
+      "time": 1672742804,
+      "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001256",
+      "thread_sn": null,
+      "time": 1672749813,
+      "text": "Миграция с Webpack на Vite завершена. Время сборки сократилось с 2 мин до 8 сек",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001257",
+      "thread_sn": null,
+      "time": 1672751291,
+      "text": "Добавил поддержку темной темы. Используем CSS custom properties",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001258",
+      "thread_sn": null,
+      "time": 1672757934,
+      "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001259",
+      "thread_sn": null,
+      "time": 1672760432,
+      "text": "TypeScript 5.5 вышел. Кто уже обновился? Есть проблемы с совместимостью?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001260",
+      "thread_sn": null,
+      "time": 1672767007,
+      "text": "Написал E2E тесты на Playwright. Покрытие основных сценариев — 85%",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001261",
+      "thread_sn": null,
+      "time": 1672773399,
+      "text": "Предлагаю внедрить Storybook для документации компонентов",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001262",
+      "thread_sn": null,
+      "time": 1672779581,
+      "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001263",
+      "thread_sn": null,
+      "time": 1672784684,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "f.sokolova@corp.example",
+          "time": 1672750566,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001264",
+      "thread_sn": null,
+      "time": 1672785174,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "b.petrov@corp.example",
+          "text": "Добавил поддержку темной темы. Используем CSS custom properties"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001265",
+      "thread_sn": null,
+      "time": 1672789742,
+      "text": "TypeScript 5.5 вышел. Кто уже обновился? Есть проблемы с совместимостью?",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001266",
+      "thread_sn": null,
+      "time": 1672792155,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1672713303,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001267",
+      "thread_sn": null,
+      "time": 1672794117,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Написал E2E тесты на Playwright. Покрытие основных сценариев — 85%"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001268",
+      "thread_sn": null,
+      "time": 1672801038,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "j.morozov@corp.example",
+          "time": 1672773018,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001269",
+      "thread_sn": null,
+      "time": 1672807233,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1672789569,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001270",
+      "thread_sn": null,
+      "time": 1672810037,
+      "text": "Написал E2E тесты на Playwright. Покрытие основных сценариев — 85%",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001271",
+      "thread_sn": null,
+      "time": 1672813931,
+      "text": "TypeScript 5.5 вышел. Кто уже обновился? Есть проблемы с совместимостью?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001272",
+      "thread_sn": null,
+      "time": 1672814106,
+      "text": "Дизайн-система обновлена. Новые компоненты: DatePicker, ComboBox, DataTable",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001273",
+      "thread_sn": null,
+      "time": 1672817487,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1672795457,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001274",
+      "thread_sn": null,
+      "time": 1672821458,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "f.sokolova@corp.example",
+          "time": 1672759304,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001275",
+      "thread_sn": null,
+      "time": 1672827692,
+      "text": "Перешли на React 19 — Server Components работают отлично. Bundle уменьшился на 30%",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001276",
+      "thread_sn": null,
+      "time": 1672829687,
+      "text": "Миграция с Webpack на Vite завершена. Время сборки сократилось с 2 мин до 8 сек",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001277",
+      "thread_sn": null,
+      "time": 1672835510,
+      "text": "Предлагаю внедрить Storybook для документации компонентов",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001278",
+      "thread_sn": null,
+      "time": 1672836664,
+      "text": "Lighthouse score упал до 65. Нужно оптимизировать LCP и CLS",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001279",
+      "thread_sn": null,
+      "time": 1672842928,
+      "text": "Миграция с Webpack на Vite завершена. Время сборки сократилось с 2 мин до 8 сек",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001280",
+      "thread_sn": null,
+      "time": 1672843658,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "b.petrov@corp.example",
+          "text": "Нужен фидбек по новому UI для дашборда аналитики. Скриншоты в тикете"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001281",
+      "thread_sn": null,
+      "time": 1672850507,
+      "text": "Дизайн-система обновлена. Новые компоненты: DatePicker, ComboBox, DataTable",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001282",
+      "thread_sn": null,
+      "time": 1672851519,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "b.petrov@corp.example",
+          "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001283",
+      "thread_sn": null,
+      "time": 1672855293,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "b.petrov@corp.example",
+          "text": "TypeScript 5.5 вышел. Кто уже обновился? Есть проблемы с совместимостью?"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001284",
+      "thread_sn": null,
+      "time": 1672858596,
+      "text": "Перешли на React 19 — Server Components работают отлично. Bundle уменьшился на 30%",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001285",
+      "thread_sn": null,
+      "time": 1672863089,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "b.petrov@corp.example",
+          "time": 1672821860,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001286",
+      "thread_sn": null,
+      "time": 1672866498,
+      "text": "Миграция с Webpack на Vite завершена. Время сборки сократилось с 2 мин до 8 сек",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001287",
+      "thread_sn": null,
+      "time": 1672869691,
+      "text": "Миграция с Webpack на Vite завершена. Время сборки сократилось с 2 мин до 8 сек",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001288",
+      "thread_sn": null,
+      "time": 1672870840,
+      "text": "Lighthouse score упал до 65. Нужно оптимизировать LCP и CLS",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001289",
+      "thread_sn": null,
+      "time": 1672872724,
+      "text": "Как правильно организовать state management в большом приложении? Redux vs Zustand?",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001290",
+      "thread_sn": null,
+      "time": 1672879528,
+      "text": "Написал E2E тесты на Playwright. Покрытие основных сценариев — 85%",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001291",
+      "thread_sn": null,
+      "time": 1672879851,
+      "text": "Перешли на React 19 — Server Components работают отлично. Bundle уменьшился на 30%",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001292",
+      "thread_sn": null,
+      "time": 1672884776,
+      "text": "Обнаружил проблему с гидратацией в Next.js 15. При SSR получаем мисматч",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001293",
+      "thread_sn": null,
+      "time": 1672886755,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001294",
+      "thread_sn": null,
+      "time": 1672893497,
+      "text": "Предлагаю внедрить Storybook для документации компонентов",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001295",
+      "thread_sn": null,
+      "time": 1672898965,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "o.nikolaev@corp.example",
+          "text": "Нужен фидбек по новому UI для дашборда аналитики. Скриншоты в тикете"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001296",
+      "thread_sn": null,
+      "time": 1672904585,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1672851027,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001297",
+      "thread_sn": null,
+      "time": 1672911082,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "e.popov@corp.example",
+          "text": "Lighthouse score упал до 65. Нужно оптимизировать LCP и CLS"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001298",
+      "thread_sn": null,
+      "time": 1672915021,
+      "text": "Добавил поддержку темной темы. Используем CSS custom properties",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001299",
+      "thread_sn": null,
+      "time": 1672918461,
+      "text": "Обнаружил проблему с гидратацией в Next.js 15. При SSR получаем мисматч",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001300",
+      "thread_sn": null,
+      "time": 1672922205,
+      "text": "Написал кастомный хук useDebounce для поиска. Уменьшает количество запросов на 80%",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001301",
+      "thread_sn": null,
+      "time": 1672922588,
+      "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001302",
+      "thread_sn": null,
+      "time": 1672925375,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "d.kuznetsova@corp.example",
+          "time": 1672859002,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001303",
+      "thread_sn": null,
+      "time": 1672927422,
+      "text": "Предлагаю внедрить Storybook для документации компонентов",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001304",
+      "thread_sn": null,
+      "time": 1672931853,
+      "text": "TypeScript 5.5 вышел. Кто уже обновился? Есть проблемы с совместимостью?",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001305",
+      "thread_sn": null,
+      "time": 1672937831,
+      "text": "Предлагаю внедрить Storybook для документации компонентов",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001306",
+      "thread_sn": null,
+      "time": 1672939703,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001307",
+      "thread_sn": null,
+      "time": 1672944547,
+      "text": "Обнаружил проблему с гидратацией в Next.js 15. При SSR получаем мисматч",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001308",
+      "thread_sn": null,
+      "time": 1672948697,
+      "text": "Проблема с CORS при запросах к API из dev-окружения. Кто знает как починить?",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001309",
+      "thread_sn": null,
+      "time": 1672954815,
+      "text": "Дизайн-система обновлена. Новые компоненты: DatePicker, ComboBox, DataTable",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001310",
+      "thread_sn": null,
+      "time": 1672959316,
+      "text": "Кто-нибудь работал с Tanstack Router? Хочу заменить React Router",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001311",
+      "thread_sn": null,
+      "time": 1672965637,
+      "text": "Как правильно организовать state management в большом приложении? Redux vs Zustand?\n@f.sokolova",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001312",
+      "thread_sn": null,
+      "time": 1672968754,
+      "text": "TypeScript 5.5 вышел. Кто уже обновился? Есть проблемы с совместимостью?",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001313",
+      "thread_sn": null,
+      "time": 1672973173,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1672931997,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001314",
+      "thread_sn": null,
+      "time": 1672973373,
+      "text": "Написал E2E тесты на Playwright. Покрытие основных сценариев — 85%\n@d.kuznetsova",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001315",
+      "thread_sn": null,
+      "time": 1672975407,
+      "text": "Добавил поддержку темной темы. Используем CSS custom properties",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001316",
+      "thread_sn": null,
+      "time": 1672978793,
+      "text": "Миграция с Webpack на Vite завершена. Время сборки сократилось с 2 мин до 8 сек",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001317",
+      "thread_sn": null,
+      "time": 1672985883,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "k.volkov@corp.example",
+          "time": 1672909840,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001318",
+      "thread_sn": null,
+      "time": 1672989842,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "o.nikolaev@corp.example",
+          "text": "Проблема с CORS при запросах к API из dev-окружения. Кто знает как починить?"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001319",
+      "thread_sn": null,
+      "time": 1672996327,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001320",
+      "thread_sn": null,
+      "time": 1672998118,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1672957769,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001321",
+      "thread_sn": null,
+      "time": 1673002626,
+      "text": "Перешли на React 19 — Server Components работают отлично. Bundle уменьшился на 30%",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001322",
+      "thread_sn": null,
+      "time": 1673008848,
+      "text": "Нужен фидбек по новому UI для дашборда аналитики. Скриншоты в тикете",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001323",
+      "thread_sn": null,
+      "time": 1673013336,
+      "text": "Как правильно организовать state management в большом приложении? Redux vs Zustand?",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001324",
+      "thread_sn": null,
+      "time": 1673016229,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "Нужен фидбек по новому UI для дашборда аналитики. Скриншоты в тикете"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001325",
+      "thread_sn": null,
+      "time": 1673016531,
+      "text": "Предлагаю внедрить Storybook для документации компонентов",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001326",
+      "thread_sn": null,
+      "time": 1673018112,
+      "text": "Написал кастомный хук useDebounce для поиска. Уменьшает количество запросов на 80%",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001327",
+      "thread_sn": null,
+      "time": 1673018844,
+      "text": "Как правильно организовать state management в большом приложении? Redux vs Zustand?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001328",
+      "thread_sn": null,
+      "time": 1673019653,
+      "text": "Кто-нибудь работал с Tanstack Router? Хочу заменить React Router\n@h.kozlova",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001329",
+      "thread_sn": null,
+      "time": 1673024275,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000001330",
+      "thread_sn": null,
+      "time": 1673029234,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "k.volkov@corp.example",
+          "time": 1673014533,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000001331",
+      "thread_sn": null,
+      "time": 1673035231,
+      "text": "Дизайн-система обновлена. Новые компоненты: DatePicker, ComboBox, DataTable",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001332",
+      "thread_sn": null,
+      "time": 1673037493,
+      "text": "Написал кастомный хук useDebounce для поиска. Уменьшает количество запросов на 80%",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001333",
+      "thread_sn": null,
+      "time": 1673038183,
+      "text": "Нужен фидбек по новому UI для дашборда аналитики. Скриншоты в тикете",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001334",
+      "thread_sn": null,
+      "time": 1673039352,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001335",
+      "thread_sn": null,
+      "time": 1673042133,
+      "text": "Lighthouse score упал до 65. Нужно оптимизировать LCP и CLS",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001336",
+      "thread_sn": null,
+      "time": 1673047062,
+      "text": "TypeScript 5.5 вышел. Кто уже обновился? Есть проблемы с совместимостью?",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001337",
+      "thread_sn": null,
+      "time": 1673049736,
+      "text": "Добавил поддержку темной темы. Используем CSS custom properties",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001338",
+      "thread_sn": null,
+      "time": 1673056484,
+      "text": "Реализовал виртуализированный список на 100k элементов. Скролл плавный\n@e.popov",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001339",
+      "thread_sn": null,
+      "time": 1673062501,
+      "text": "Проблема с CORS при запросах к API из dev-окружения. Кто знает как починить?",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001340",
+      "thread_sn": null,
+      "time": 1673069079,
+      "text": "Написал кастомный хук useDebounce для поиска. Уменьшает количество запросов на 80%",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001341",
+      "thread_sn": null,
+      "time": 1673075603,
+      "text": "Lighthouse score упал до 65. Нужно оптимизировать LCP и CLS",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001342",
+      "thread_sn": null,
+      "time": 1673082787,
+      "text": "Написал E2E тесты на Playwright. Покрытие основных сценариев — 85%",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001343",
+      "thread_sn": null,
+      "time": 1673083543,
+      "text": "Миграция с Webpack на Vite завершена. Время сборки сократилось с 2 мин до 8 сек",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001344",
+      "thread_sn": null,
+      "time": 1673088887,
+      "text": "Добавил поддержку темной темы. Используем CSS custom properties",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001345",
+      "thread_sn": null,
+      "time": 1673091066,
+      "text": "Нужен фидбек по новому UI для дашборда аналитики. Скриншоты в тикете",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001346",
+      "thread_sn": null,
+      "time": 1673094919,
+      "text": "Перешли на React 19 — Server Components работают отлично. Bundle уменьшился на 30%",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001347",
+      "thread_sn": null,
+      "time": 1673095682,
+      "text": "Предлагаю внедрить Storybook для документации компонентов",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001348",
+      "thread_sn": null,
+      "time": 1673099698,
+      "text": "Предлагаю внедрить Storybook для документации компонентов\n@b.petrov",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000001349",
+      "thread_sn": null,
+      "time": 1673100700,
+      "text": "Дизайн-система обновлена. Новые компоненты: DatePicker, ComboBox, DataTable",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    }
+  ]
+}

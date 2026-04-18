@@ -1,0 +1,1450 @@
+{
+  "chat": {
+    "id": "10463@chat.example",
+    "name": "Продуктовый чат",
+    "sn": "10463@chat.example",
+    "type": "group",
+    "is_public": false,
+    "members_count": 30,
+    "members": null
+  },
+  "messages": [
+    {
+      "id": "1000004750",
+      "thread_sn": null,
+      "time": 1672534977,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Метрики DAU/MAU: 45k/120k. Retention 30d — 35%. Нужно улучшать"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004751",
+      "thread_sn": null,
+      "time": 1672540186,
+      "text": "Результаты A/B теста: новый онбординг увеличил конверсию на 12%",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004752",
+      "thread_sn": null,
+      "time": 1672547240,
+      "text": "Приоритеты на Q3: мобильное приложение, интеграция с CRM, аналитический дашборд\n@i.novikov",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004753",
+      "thread_sn": null,
+      "time": 1672548621,
+      "text": "Запускаем бета-тест новой фичи. Нужны 50 добровольцев из команды",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004754",
+      "thread_sn": null,
+      "time": 1672552411,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004755",
+      "thread_sn": null,
+      "time": 1672555575,
+      "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004756",
+      "thread_sn": null,
+      "time": 1672562675,
+      "text": "NPS вырос с 42 до 58 после релиза новых фич. Хорошая динамика",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004757",
+      "thread_sn": null,
+      "time": 1672568712,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1672527470,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000004758",
+      "thread_sn": null,
+      "time": 1672572270,
+      "text": "Запускаем бета-тест новой фичи. Нужны 50 добровольцев из команды",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004759",
+      "thread_sn": null,
+      "time": 1672576939,
+      "text": "Пользователи жалуются на сложность настройки уведомлений. Нужно упростить UI",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004760",
+      "thread_sn": null,
+      "time": 1672579378,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004761",
+      "thread_sn": null,
+      "time": 1672583246,
+      "text": "Запускаем бета-тест новой фичи. Нужны 50 добровольцев из команды",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004762",
+      "thread_sn": null,
+      "time": 1672586040,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "NPS вырос с 42 до 58 после релиза новых фич. Хорошая динамика"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004763",
+      "thread_sn": null,
+      "time": 1672592573,
+      "text": "Результаты A/B теста: новый онбординг увеличил конверсию на 12%\n@k.volkov",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004764",
+      "thread_sn": null,
+      "time": 1672598567,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1672551646,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000004765",
+      "thread_sn": null,
+      "time": 1672605457,
+      "text": "Результаты A/B теста: новый онбординг увеличил конверсию на 12%",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004766",
+      "thread_sn": null,
+      "time": 1672610655,
+      "text": "Ретро спринта: закрыли 85% запланированных задач. Блокер — зависимость от API команды",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004767",
+      "thread_sn": null,
+      "time": 1672614983,
+      "text": "Результаты A/B теста: новый онбординг увеличил конверсию на 12%",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004768",
+      "thread_sn": null,
+      "time": 1672621592,
+      "text": "Результаты A/B теста: новый онбординг увеличил конверсию на 12%",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004769",
+      "thread_sn": null,
+      "time": 1672626028,
+      "text": "Приоритеты на Q3: мобильное приложение, интеграция с CRM, аналитический дашборд",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004770",
+      "thread_sn": null,
+      "time": 1672631865,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1672563116,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000004771",
+      "thread_sn": null,
+      "time": 1672633871,
+      "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз\n@k.volkov",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004772",
+      "thread_sn": null,
+      "time": 1672640302,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Дорожная карта на H2 утверждена. Фокус на enterprise клиентов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004773",
+      "thread_sn": null,
+      "time": 1672643148,
+      "text": "Пользователи жалуются на сложность настройки уведомлений. Нужно упростить UI",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004774",
+      "thread_sn": null,
+      "time": 1672647436,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "m.fedorov@corp.example",
+          "text": "Ретро спринта: закрыли 85% запланированных задач. Блокер — зависимость от API команды"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004775",
+      "thread_sn": null,
+      "time": 1672650043,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "e.popov@corp.example",
+          "text": "Дорожная карта на H2 утверждена. Фокус на enterprise клиентов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004776",
+      "thread_sn": null,
+      "time": 1672654367,
+      "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004777",
+      "thread_sn": null,
+      "time": 1672656069,
+      "text": "Приоритеты на Q3: мобильное приложение, интеграция с CRM, аналитический дашборд",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004778",
+      "thread_sn": null,
+      "time": 1672657066,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "n.mikhailova@corp.example",
+          "text": "Метрики DAU/MAU: 45k/120k. Retention 30d — 35%. Нужно улучшать"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004779",
+      "thread_sn": null,
+      "time": 1672659735,
+      "text": "NPS вырос с 42 до 58 после релиза новых фич. Хорошая динамика\n@l.alekseeva",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004780",
+      "thread_sn": null,
+      "time": 1672662569,
+      "text": "Результаты A/B теста: новый онбординг увеличил конверсию на 12%\n@m.fedorov",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004781",
+      "thread_sn": null,
+      "time": 1672665839,
+      "text": "Дорожная карта на H2 утверждена. Фокус на enterprise клиентов",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004782",
+      "thread_sn": null,
+      "time": 1672672595,
+      "text": "Дорожная карта на H2 утверждена. Фокус на enterprise клиентов",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004783",
+      "thread_sn": null,
+      "time": 1672679227,
+      "text": "Дорожная карта на H2 утверждена. Фокус на enterprise клиентов",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004784",
+      "thread_sn": null,
+      "time": 1672680464,
+      "text": "Пользователи жалуются на сложность настройки уведомлений. Нужно упростить UI",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004785",
+      "thread_sn": null,
+      "time": 1672686985,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Дорожная карта на H2 утверждена. Фокус на enterprise клиентов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004786",
+      "thread_sn": null,
+      "time": 1672690966,
+      "text": "Запускаем бета-тест новой фичи. Нужны 50 добровольцев из команды\n@e.popov",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004787",
+      "thread_sn": null,
+      "time": 1672696877,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004788",
+      "thread_sn": null,
+      "time": 1672701774,
+      "text": "Дорожная карта на H2 утверждена. Фокус на enterprise клиентов",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004789",
+      "thread_sn": null,
+      "time": 1672708501,
+      "text": "Провели 15 custdev интервью. Главная боль — отсутствие интеграции с Jira",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004790",
+      "thread_sn": null,
+      "time": 1672713989,
+      "text": "Дорожная карта на H2 утверждена. Фокус на enterprise клиентов\n@d.kuznetsova",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004791",
+      "thread_sn": null,
+      "time": 1672718596,
+      "text": "Приоритеты на Q3: мобильное приложение, интеграция с CRM, аналитический дашборд",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004792",
+      "thread_sn": null,
+      "time": 1672723541,
+      "text": "Результаты A/B теста: новый онбординг увеличил конверсию на 12%\n@f.sokolova",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004793",
+      "thread_sn": null,
+      "time": 1672728358,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "b.petrov@corp.example",
+          "time": 1672705200,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000004794",
+      "thread_sn": null,
+      "time": 1672732128,
+      "text": "NPS вырос с 42 до 58 после релиза новых фич. Хорошая динамика",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004795",
+      "thread_sn": null,
+      "time": 1672736859,
+      "text": "Ретро спринта: закрыли 85% запланированных задач. Блокер — зависимость от API команды",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004796",
+      "thread_sn": null,
+      "time": 1672737650,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004797",
+      "thread_sn": null,
+      "time": 1672741021,
+      "text": "Метрики DAU/MAU: 45k/120k. Retention 30d — 35%. Нужно улучшать",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004798",
+      "thread_sn": null,
+      "time": 1672745668,
+      "text": "Результаты A/B теста: новый онбординг увеличил конверсию на 12%",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004799",
+      "thread_sn": null,
+      "time": 1672748957,
+      "text": "Метрики DAU/MAU: 45k/120k. Retention 30d — 35%. Нужно улучшать",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004800",
+      "thread_sn": null,
+      "time": 1672750156,
+      "text": "Ретро спринта: закрыли 85% запланированных задач. Блокер — зависимость от API команды\n@f.sokolova",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004801",
+      "thread_sn": null,
+      "time": 1672751316,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "b.petrov@corp.example",
+          "time": 1672690473,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000004802",
+      "thread_sn": null,
+      "time": 1672752488,
+      "text": "Запускаем бета-тест новой фичи. Нужны 50 добровольцев из команды",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004803",
+      "thread_sn": null,
+      "time": 1672756270,
+      "text": "NPS вырос с 42 до 58 после релиза новых фич. Хорошая динамика\n@d.kuznetsova",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004804",
+      "thread_sn": null,
+      "time": 1672760410,
+      "text": "Метрики DAU/MAU: 45k/120k. Retention 30d — 35%. Нужно улучшать",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004805",
+      "thread_sn": null,
+      "time": 1672760780,
+      "text": "Приоритеты на Q3: мобильное приложение, интеграция с CRM, аналитический дашборд\n@g.lebedev",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004806",
+      "thread_sn": null,
+      "time": 1672767879,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Запускаем бета-тест новой фичи. Нужны 50 добровольцев из команды"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004807",
+      "thread_sn": null,
+      "time": 1672771809,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Метрики DAU/MAU: 45k/120k. Retention 30d — 35%. Нужно улучшать"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004808",
+      "thread_sn": null,
+      "time": 1672772301,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "n.mikhailova@corp.example",
+          "time": 1672707198,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000004809",
+      "thread_sn": null,
+      "time": 1672777062,
+      "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004810",
+      "thread_sn": null,
+      "time": 1672782017,
+      "text": "Дорожная карта на H2 утверждена. Фокус на enterprise клиентов",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004811",
+      "thread_sn": null,
+      "time": 1672787453,
+      "text": "Приоритеты на Q3: мобильное приложение, интеграция с CRM, аналитический дашборд\n@e.popov",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004812",
+      "thread_sn": null,
+      "time": 1672789789,
+      "text": "Результаты A/B теста: новый онбординг увеличил конверсию на 12%",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004813",
+      "thread_sn": null,
+      "time": 1672794696,
+      "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004814",
+      "thread_sn": null,
+      "time": 1672796237,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1672714578,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000004815",
+      "thread_sn": null,
+      "time": 1672803028,
+      "text": "Ретро спринта: закрыли 85% запланированных задач. Блокер — зависимость от API команды",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004816",
+      "thread_sn": null,
+      "time": 1672808311,
+      "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004817",
+      "thread_sn": null,
+      "time": 1672809743,
+      "text": "Метрики DAU/MAU: 45k/120k. Retention 30d — 35%. Нужно улучшать",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004818",
+      "thread_sn": null,
+      "time": 1672812998,
+      "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004819",
+      "thread_sn": null,
+      "time": 1672818616,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Метрики DAU/MAU: 45k/120k. Retention 30d — 35%. Нужно улучшать"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004820",
+      "thread_sn": null,
+      "time": 1672822213,
+      "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004821",
+      "thread_sn": null,
+      "time": 1672827058,
+      "text": "Запускаем бета-тест новой фичи. Нужны 50 добровольцев из команды",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004822",
+      "thread_sn": null,
+      "time": 1672832669,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "m.fedorov@corp.example",
+          "text": "Результаты A/B теста: новый онбординг увеличил конверсию на 12%"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000004823",
+      "thread_sn": null,
+      "time": 1672836097,
+      "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004824",
+      "thread_sn": null,
+      "time": 1672841231,
+      "text": "NPS вырос с 42 до 58 после релиза новых фич. Хорошая динамика",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004825",
+      "thread_sn": null,
+      "time": 1672847091,
+      "text": "Запускаем бета-тест новой фичи. Нужны 50 добровольцев из команды",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004826",
+      "thread_sn": null,
+      "time": 1672848059,
+      "text": "Приоритеты на Q3: мобильное приложение, интеграция с CRM, аналитический дашборд",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004827",
+      "thread_sn": null,
+      "time": 1672850383,
+      "text": "Провели 15 custdev интервью. Главная боль — отсутствие интеграции с Jira",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004828",
+      "thread_sn": null,
+      "time": 1672852714,
+      "text": "Конкурент запустил аналогичную функцию. Нужно ускорить наш релиз",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000004829",
+      "thread_sn": null,
+      "time": 1672856383,
+      "text": "Пользователи жалуются на сложность настройки уведомлений. Нужно упростить UI",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    }
+  ]
+}

@@ -1,0 +1,3544 @@
+{
+  "chat": {
+    "id": "93810@chat.example",
+    "name": "Backend Dev",
+    "sn": "93810@chat.example",
+    "type": "group",
+    "is_public": true,
+    "members_count": 150,
+    "members": null
+  },
+  "messages": [
+    {
+      "id": "1000000000",
+      "thread_sn": null,
+      "time": 1672537293,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "a.ivanov@corp.example",
+          "text": "Написал нагрузочный тест на k6. При 5000 rps сервис держит стабильно, CPU ~60%"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000001",
+      "thread_sn": null,
+      "time": 1672538120,
+      "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000002",
+      "thread_sn": null,
+      "time": 1672540458,
+      "text": "Обнаружил проблему с пулом коннектов к Redis. При пиковой нагрузке получаем таймауты\n@e.popov",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000003",
+      "thread_sn": null,
+      "time": 1672543630,
+      "text": "Мы перешли на Go 1.22 и заметили улучшение производительности GC на ~15%. Рекомендую обновиться",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000004",
+      "thread_sn": null,
+      "time": 1672546790,
+      "text": "Добавил кеширование в сервис профилей. Latency p99 упала с 200ms до 15ms",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000005",
+      "thread_sn": null,
+      "time": 1672547225,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000006",
+      "thread_sn": null,
+      "time": 1672549562,
+      "text": "Кто-нибудь использовал sqlc для генерации Go кода из SQL? Хочу попробовать вместо GORM",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000007",
+      "thread_sn": null,
+      "time": 1672555221,
+      "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга\n@d.kuznetsova",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000008",
+      "thread_sn": null,
+      "time": 1672560523,
+      "text": "Мы перешли на Go 1.22 и заметили улучшение производительности GC на ~15%. Рекомендую обновиться",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000009",
+      "thread_sn": null,
+      "time": 1672563167,
+      "text": "Нужен code review для PR #1234 — рефакторинг middleware аутентификации",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000010",
+      "thread_sn": null,
+      "time": 1672568493,
+      "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000011",
+      "thread_sn": null,
+      "time": 1672573333,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "a.ivanov@corp.example",
+          "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000012",
+      "thread_sn": null,
+      "time": 1672580447,
+      "text": "Нужна помощь с настройкой rate limiter. Как правильно реализовать sliding window?\n@d.kuznetsova",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000013",
+      "thread_sn": null,
+      "time": 1672584341,
+      "text": "Нашёл баг в обработке контекстов. При таймауте горутина не завершается корректно, утечка памяти",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000014",
+      "thread_sn": null,
+      "time": 1672586586,
+      "text": "Коллеги, кто работал с gRPC streaming в Go? Нужно реализовать bidirectional stream для real-time нотификаций",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000015",
+      "thread_sn": null,
+      "time": 1672588803,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Написал библиотеку для graceful shutdown. Корректно завершает HTTP сервер, gRPC, воркеры и очереди"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000016",
+      "thread_sn": null,
+      "time": 1672591926,
+      "text": "Коллеги, кто работал с gRPC streaming в Go? Нужно реализовать bidirectional stream для real-time нотификаций",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000017",
+      "thread_sn": null,
+      "time": 1672592902,
+      "text": "Мы перешли на Go 1.22 и заметили улучшение производительности GC на ~15%. Рекомендую обновиться",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000018",
+      "thread_sn": null,
+      "time": 1672593607,
+      "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000019",
+      "thread_sn": null,
+      "time": 1672597560,
+      "text": "Кто-нибудь использовал sqlc для генерации Go кода из SQL? Хочу попробовать вместо GORM",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000020",
+      "thread_sn": null,
+      "time": 1672603271,
+      "text": "Добавил кеширование в сервис профилей. Latency p99 упала с 200ms до 15ms",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000021",
+      "thread_sn": null,
+      "time": 1672604322,
+      "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000022",
+      "thread_sn": null,
+      "time": 1672610180,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1672597293,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000023",
+      "thread_sn": null,
+      "time": 1672614451,
+      "text": "Переписал обработку ошибок на новые errors в Go 1.22. Стало намного чище",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000024",
+      "thread_sn": null,
+      "time": 1672618385,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1672559266,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000025",
+      "thread_sn": null,
+      "time": 1672621812,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1672565440,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000026",
+      "thread_sn": null,
+      "time": 1672627837,
+      "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000027",
+      "thread_sn": null,
+      "time": 1672630178,
+      "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно\n@c.sidorov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000028",
+      "thread_sn": null,
+      "time": 1672637086,
+      "text": "Миграция БД прошла успешно. PostgreSQL 16 показывает на 20% лучше на наших запросах",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000029",
+      "thread_sn": null,
+      "time": 1672644229,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Вопрос: как правильно обрабатывать partial failures в saga паттерне?"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000030",
+      "thread_sn": null,
+      "time": 1672646625,
+      "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes\n@e.popov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000031",
+      "thread_sn": null,
+      "time": 1672647164,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1672636992,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000032",
+      "thread_sn": null,
+      "time": 1672652009,
+      "text": "Кто знает как настроить connection pooling для PostgreSQL в Kubernetes?\n@l.alekseeva",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000033",
+      "thread_sn": null,
+      "time": 1672652625,
+      "text": "Переписал обработку ошибок на новые errors в Go 1.22. Стало намного чище",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000034",
+      "thread_sn": null,
+      "time": 1672657758,
+      "text": "Обнаружил проблему с пулом коннектов к Redis. При пиковой нагрузке получаем таймауты",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000035",
+      "thread_sn": null,
+      "time": 1672659773,
+      "text": "Нужен code review для PR #1234 — рефакторинг middleware аутентификации",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000036",
+      "thread_sn": null,
+      "time": 1672659909,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "n.mikhailova@corp.example",
+          "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000037",
+      "thread_sn": null,
+      "time": 1672662141,
+      "text": "Добавил кеширование в сервис профилей. Latency p99 упала с 200ms до 15ms",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000038",
+      "thread_sn": null,
+      "time": 1672666651,
+      "text": "Кто знает как настроить connection pooling для PostgreSQL в Kubernetes?\n@n.mikhailova",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000039",
+      "thread_sn": null,
+      "time": 1672672145,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "e.popov@corp.example",
+          "text": "Нашёл баг в обработке контекстов. При таймауте горутина не завершается корректно, утечка памяти"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000040",
+      "thread_sn": null,
+      "time": 1672674513,
+      "text": "Обнаружил проблему с пулом коннектов к Redis. При пиковой нагрузке получаем таймауты",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000041",
+      "thread_sn": null,
+      "time": 1672681504,
+      "text": "Коллеги, кто работал с gRPC streaming в Go? Нужно реализовать bidirectional stream для real-time нотификаций",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000042",
+      "thread_sn": null,
+      "time": 1672683709,
+      "text": "Коллеги, кто работал с gRPC streaming в Go? Нужно реализовать bidirectional stream для real-time нотификаций\n@c.sidorov",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000043",
+      "thread_sn": null,
+      "time": 1672688238,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "e.popov@corp.example",
+          "text": "Предлагаю перейти с REST на gRPC для межсервисного взаимодействия. Профит: типизация, скорость, streaming"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000044",
+      "thread_sn": null,
+      "time": 1672691285,
+      "text": "Нашёл баг в обработке контекстов. При таймауте горутина не завершается корректно, утечка памяти",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000045",
+      "thread_sn": null,
+      "time": 1672694674,
+      "text": "Миграция БД прошла успешно. PostgreSQL 16 показывает на 20% лучше на наших запросах",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000046",
+      "thread_sn": null,
+      "time": 1672698111,
+      "text": "Написал нагрузочный тест на k6. При 5000 rps сервис держит стабильно, CPU ~60%",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000047",
+      "thread_sn": null,
+      "time": 1672704812,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Мы перешли на Go 1.22 и заметили улучшение производительности GC на ~15%. Рекомендую обновиться"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000048",
+      "thread_sn": null,
+      "time": 1672706506,
+      "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга\n@l.alekseeva",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000049",
+      "thread_sn": null,
+      "time": 1672708848,
+      "text": "Вопрос: как правильно обрабатывать partial failures в saga паттерне?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000050",
+      "thread_sn": null,
+      "time": 1672711620,
+      "text": "Обнаружил проблему с пулом коннектов к Redis. При пиковой нагрузке получаем таймауты\n@n.mikhailova",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000051",
+      "thread_sn": null,
+      "time": 1672717648,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "e.popov@corp.example",
+          "text": "Переписал обработку ошибок на новые errors в Go 1.22. Стало намного чище"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000052",
+      "thread_sn": null,
+      "time": 1672718071,
+      "text": "Кто-нибудь использовал sqlc для генерации Go кода из SQL? Хочу попробовать вместо GORM",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000053",
+      "thread_sn": null,
+      "time": 1672723572,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Написал библиотеку для graceful shutdown. Корректно завершает HTTP сервер, gRPC, воркеры и очереди"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000054",
+      "thread_sn": null,
+      "time": 1672726977,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Написал нагрузочный тест на k6. При 5000 rps сервис держит стабильно, CPU ~60%"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000055",
+      "thread_sn": null,
+      "time": 1672733165,
+      "text": "Коллеги, кто работал с gRPC streaming в Go? Нужно реализовать bidirectional stream для real-time нотификаций",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000056",
+      "thread_sn": null,
+      "time": 1672739661,
+      "text": "Кто-нибудь использовал sqlc для генерации Go кода из SQL? Хочу попробовать вместо GORM",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000057",
+      "thread_sn": null,
+      "time": 1672746242,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1672661475,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000058",
+      "thread_sn": null,
+      "time": 1672749047,
+      "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000059",
+      "thread_sn": null,
+      "time": 1672749485,
+      "text": "Предлагаю добавить distributed tracing через OpenTelemetry. Без него дебаг микросервисов — боль",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000060",
+      "thread_sn": null,
+      "time": 1672751137,
+      "text": "Коллеги, кто работал с gRPC streaming в Go? Нужно реализовать bidirectional stream для real-time нотификаций",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000061",
+      "thread_sn": null,
+      "time": 1672752070,
+      "text": "Предлагаю добавить distributed tracing через OpenTelemetry. Без него дебаг микросервисов — боль\n@l.alekseeva",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000062",
+      "thread_sn": null,
+      "time": 1672753124,
+      "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000063",
+      "thread_sn": null,
+      "time": 1672756809,
+      "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000064",
+      "thread_sn": null,
+      "time": 1672763926,
+      "text": "Обнаружил проблему с пулом коннектов к Redis. При пиковой нагрузке получаем таймауты",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000065",
+      "thread_sn": null,
+      "time": 1672769120,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "l.alekseeva@corp.example",
+          "time": 1672729906,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000066",
+      "thread_sn": null,
+      "time": 1672771931,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "l.alekseeva@corp.example",
+          "time": 1672718126,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000067",
+      "thread_sn": null,
+      "time": 1672777675,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1672702954,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000068",
+      "thread_sn": null,
+      "time": 1672781551,
+      "text": "Переписал обработку ошибок на новые errors в Go 1.22. Стало намного чище",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000069",
+      "thread_sn": null,
+      "time": 1672787882,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1672733166,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000070",
+      "thread_sn": null,
+      "time": 1672794933,
+      "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000071",
+      "thread_sn": null,
+      "time": 1672798971,
+      "text": "Миграция БД прошла успешно. PostgreSQL 16 показывает на 20% лучше на наших запросах",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000072",
+      "thread_sn": null,
+      "time": 1672804128,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000073",
+      "thread_sn": null,
+      "time": 1672809036,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "l.alekseeva@corp.example",
+          "time": 1672744921,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000074",
+      "thread_sn": null,
+      "time": 1672810584,
+      "text": "Нужен code review для PR #1234 — рефакторинг middleware аутентификации",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000075",
+      "thread_sn": null,
+      "time": 1672816804,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1672742502,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000076",
+      "thread_sn": null,
+      "time": 1672817290,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1672781279,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000077",
+      "thread_sn": null,
+      "time": 1672818983,
+      "text": "Нашёл баг в обработке контекстов. При таймауте горутина не завершается корректно, утечка памяти",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000078",
+      "thread_sn": null,
+      "time": 1672824773,
+      "text": "Нашёл баг в обработке контекстов. При таймауте горутина не завершается корректно, утечка памяти",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000079",
+      "thread_sn": null,
+      "time": 1672827381,
+      "text": "Вопрос: как правильно обрабатывать partial failures в saga паттерне?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000080",
+      "thread_sn": null,
+      "time": 1672828063,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "n.mikhailova@corp.example",
+          "text": "Написал библиотеку для graceful shutdown. Корректно завершает HTTP сервер, gRPC, воркеры и очереди"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000081",
+      "thread_sn": null,
+      "time": 1672834534,
+      "text": "Кто знает как настроить connection pooling для PostgreSQL в Kubernetes?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000082",
+      "thread_sn": null,
+      "time": 1672838035,
+      "text": "Предлагаю добавить distributed tracing через OpenTelemetry. Без него дебаг микросервисов — боль",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000083",
+      "thread_sn": null,
+      "time": 1672844106,
+      "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000084",
+      "thread_sn": null,
+      "time": 1672850930,
+      "text": "Вопрос по архитектуре: стоит ли использовать CQRS для нашего сервиса заказов? Нагрузка ~10k rps",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000085",
+      "thread_sn": null,
+      "time": 1672857137,
+      "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000086",
+      "thread_sn": null,
+      "time": 1672858934,
+      "text": "Обнаружил проблему с пулом коннектов к Redis. При пиковой нагрузке получаем таймауты",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000087",
+      "thread_sn": null,
+      "time": 1672860559,
+      "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000088",
+      "thread_sn": null,
+      "time": 1672864639,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "d.kuznetsova@corp.example",
+          "time": 1672829149,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000089",
+      "thread_sn": null,
+      "time": 1672867207,
+      "text": "Написал нагрузочный тест на k6. При 5000 rps сервис держит стабильно, CPU ~60%",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000090",
+      "thread_sn": null,
+      "time": 1672870149,
+      "text": "Кто-нибудь использовал sqlc для генерации Go кода из SQL? Хочу попробовать вместо GORM",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000091",
+      "thread_sn": null,
+      "time": 1672876452,
+      "text": "Переписал обработку ошибок на новые errors в Go 1.22. Стало намного чище",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000092",
+      "thread_sn": null,
+      "time": 1672878830,
+      "text": "Написал библиотеку для graceful shutdown. Корректно завершает HTTP сервер, gRPC, воркеры и очереди\n@n.mikhailova",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000093",
+      "thread_sn": null,
+      "time": 1672879262,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "a.ivanov@corp.example",
+          "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000094",
+      "thread_sn": null,
+      "time": 1672884024,
+      "text": "Мы перешли на Go 1.22 и заметили улучшение производительности GC на ~15%. Рекомендую обновиться",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000095",
+      "thread_sn": null,
+      "time": 1672885018,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "l.alekseeva@corp.example",
+          "time": 1672861863,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000096",
+      "thread_sn": null,
+      "time": 1672891722,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1672814975,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000097",
+      "thread_sn": null,
+      "time": 1672898044,
+      "text": "Кто знает как настроить connection pooling для PostgreSQL в Kubernetes?",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000098",
+      "thread_sn": null,
+      "time": 1672900539,
+      "text": "Нужна помощь с настройкой rate limiter. Как правильно реализовать sliding window?",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000099",
+      "thread_sn": null,
+      "time": 1672906847,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "n.mikhailova@corp.example",
+          "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000100",
+      "thread_sn": null,
+      "time": 1672907521,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000101",
+      "thread_sn": null,
+      "time": 1672913228,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1672872572,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000102",
+      "thread_sn": null,
+      "time": 1672919046,
+      "text": "Переписал обработку ошибок на новые errors в Go 1.22. Стало намного чище",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000103",
+      "thread_sn": null,
+      "time": 1672922588,
+      "text": "Предлагаю перейти с REST на gRPC для межсервисного взаимодействия. Профит: типизация, скорость, streaming\n@l.alekseeva",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000104",
+      "thread_sn": null,
+      "time": 1672927522,
+      "text": "Предлагаю добавить distributed tracing через OpenTelemetry. Без него дебаг микросервисов — боль",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000105",
+      "thread_sn": null,
+      "time": 1672929812,
+      "text": "Написал нагрузочный тест на k6. При 5000 rps сервис держит стабильно, CPU ~60%",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000106",
+      "thread_sn": null,
+      "time": 1672930083,
+      "text": "Переписал обработку ошибок на новые errors в Go 1.22. Стало намного чище",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000107",
+      "thread_sn": null,
+      "time": 1672935650,
+      "text": "Кто знает как настроить connection pooling для PostgreSQL в Kubernetes?",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000108",
+      "thread_sn": null,
+      "time": 1672937196,
+      "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000109",
+      "thread_sn": null,
+      "time": 1672942745,
+      "text": "Написал библиотеку для graceful shutdown. Корректно завершает HTTP сервер, gRPC, воркеры и очереди",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000110",
+      "thread_sn": null,
+      "time": 1672949035,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000111",
+      "thread_sn": null,
+      "time": 1672951671,
+      "text": "Кто знает как настроить connection pooling для PostgreSQL в Kubernetes?",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000112",
+      "thread_sn": null,
+      "time": 1672958852,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1672873643,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000113",
+      "thread_sn": null,
+      "time": 1672965108,
+      "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно\n@e.popov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000114",
+      "thread_sn": null,
+      "time": 1672970888,
+      "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000115",
+      "thread_sn": null,
+      "time": 1672971060,
+      "text": "Нашёл баг в обработке контекстов. При таймауте горутина не завершается корректно, утечка памяти",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000116",
+      "thread_sn": null,
+      "time": 1672977936,
+      "text": "Обнаружил проблему с пулом коннектов к Redis. При пиковой нагрузке получаем таймауты",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000117",
+      "thread_sn": null,
+      "time": 1672981864,
+      "text": "Нужна помощь с настройкой rate limiter. Как правильно реализовать sliding window?",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000118",
+      "thread_sn": null,
+      "time": 1672989002,
+      "text": "Кто знает как настроить connection pooling для PostgreSQL в Kubernetes?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000119",
+      "thread_sn": null,
+      "time": 1672995009,
+      "text": "Предлагаю перейти с REST на gRPC для межсервисного взаимодействия. Профит: типизация, скорость, streaming",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000120",
+      "thread_sn": null,
+      "time": 1672997792,
+      "text": "Кто-нибудь использовал sqlc для генерации Go кода из SQL? Хочу попробовать вместо GORM",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000121",
+      "thread_sn": null,
+      "time": 1673000989,
+      "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000122",
+      "thread_sn": null,
+      "time": 1673004211,
+      "text": "Мы перешли на Go 1.22 и заметили улучшение производительности GC на ~15%. Рекомендую обновиться\n@n.mikhailova",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000123",
+      "thread_sn": null,
+      "time": 1673005093,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Предлагаю перейти с REST на gRPC для межсервисного взаимодействия. Профит: типизация, скорость, streaming"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000124",
+      "thread_sn": null,
+      "time": 1673006417,
+      "text": "Вопрос: как правильно обрабатывать partial failures в saga паттерне?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000125",
+      "thread_sn": null,
+      "time": 1673013459,
+      "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000126",
+      "thread_sn": null,
+      "time": 1673014079,
+      "text": "Вопрос по архитектуре: стоит ли использовать CQRS для нашего сервиса заказов? Нагрузка ~10k rps",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000127",
+      "thread_sn": null,
+      "time": 1673019330,
+      "text": "Коллеги, кто работал с gRPC streaming в Go? Нужно реализовать bidirectional stream для real-time нотификаций\n@a.ivanov",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000128",
+      "thread_sn": null,
+      "time": 1673022460,
+      "text": "Миграция БД прошла успешно. PostgreSQL 16 показывает на 20% лучше на наших запросах\n@a.ivanov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000129",
+      "thread_sn": null,
+      "time": 1673025653,
+      "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000130",
+      "thread_sn": null,
+      "time": 1673027804,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000131",
+      "thread_sn": null,
+      "time": 1673030220,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "n.mikhailova@corp.example",
+          "time": 1672987410,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000132",
+      "thread_sn": null,
+      "time": 1673035514,
+      "text": "Вопрос: как правильно обрабатывать partial failures в saga паттерне?",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000133",
+      "thread_sn": null,
+      "time": 1673038698,
+      "text": "Коллеги, кто работал с gRPC streaming в Go? Нужно реализовать bidirectional stream для real-time нотификаций",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000134",
+      "thread_sn": null,
+      "time": 1673041006,
+      "text": "Мы перешли на Go 1.22 и заметили улучшение производительности GC на ~15%. Рекомендую обновиться",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000135",
+      "thread_sn": null,
+      "time": 1673047888,
+      "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000136",
+      "thread_sn": null,
+      "time": 1673053500,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "e.popov@corp.example",
+          "text": "Нашёл баг в обработке контекстов. При таймауте горутина не завершается корректно, утечка памяти"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000137",
+      "thread_sn": null,
+      "time": 1673060020,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000138",
+      "thread_sn": null,
+      "time": 1673066079,
+      "text": "Миграция БД прошла успешно. PostgreSQL 16 показывает на 20% лучше на наших запросах",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000139",
+      "thread_sn": null,
+      "time": 1673069136,
+      "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000140",
+      "thread_sn": null,
+      "time": 1673076326,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "n.mikhailova@corp.example",
+          "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000141",
+      "thread_sn": null,
+      "time": 1673079382,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1673016173,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000142",
+      "thread_sn": null,
+      "time": 1673082461,
+      "text": "Добавил кеширование в сервис профилей. Latency p99 упала с 200ms до 15ms\n@l.alekseeva",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000143",
+      "thread_sn": null,
+      "time": 1673087596,
+      "text": "Предлагаю добавить distributed tracing через OpenTelemetry. Без него дебаг микросервисов — боль",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000144",
+      "thread_sn": null,
+      "time": 1673091000,
+      "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes\n@l.alekseeva",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000145",
+      "thread_sn": null,
+      "time": 1673092171,
+      "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000146",
+      "thread_sn": null,
+      "time": 1673093496,
+      "text": "Обнаружил проблему с пулом коннектов к Redis. При пиковой нагрузке получаем таймауты\n@e.popov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000147",
+      "thread_sn": null,
+      "time": 1673097198,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "n.mikhailova@corp.example",
+          "time": 1673046586,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000148",
+      "thread_sn": null,
+      "time": 1673097754,
+      "text": "Предлагаю добавить distributed tracing через OpenTelemetry. Без него дебаг микросервисов — боль\n@l.alekseeva",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000149",
+      "thread_sn": null,
+      "time": 1673102705,
+      "text": "Переписал обработку ошибок на новые errors в Go 1.22. Стало намного чище",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000150",
+      "thread_sn": null,
+      "time": 1673107305,
+      "text": "Предлагаю перейти с REST на gRPC для межсервисного взаимодействия. Профит: типизация, скорость, streaming",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000151",
+      "thread_sn": null,
+      "time": 1673109636,
+      "text": "Нашёл баг в обработке контекстов. При таймауте горутина не завершается корректно, утечка памяти",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000152",
+      "thread_sn": null,
+      "time": 1673109817,
+      "text": "Миграция БД прошла успешно. PostgreSQL 16 показывает на 20% лучше на наших запросах",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000153",
+      "thread_sn": null,
+      "time": 1673113325,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1673042454,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000154",
+      "thread_sn": null,
+      "time": 1673118248,
+      "text": "Кто знает как настроить connection pooling для PostgreSQL в Kubernetes?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000155",
+      "thread_sn": null,
+      "time": 1673118563,
+      "text": "Нашёл баг в обработке контекстов. При таймауте горутина не завершается корректно, утечка памяти",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000156",
+      "thread_sn": null,
+      "time": 1673119225,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Нужна помощь с настройкой rate limiter. Как правильно реализовать sliding window?"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000157",
+      "thread_sn": null,
+      "time": 1673124178,
+      "text": "Нашёл баг в обработке контекстов. При таймауте горутина не завершается корректно, утечка памяти",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000158",
+      "thread_sn": null,
+      "time": 1673130537,
+      "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000159",
+      "thread_sn": null,
+      "time": 1673133863,
+      "text": "Обнаружил проблему с пулом коннектов к Redis. При пиковой нагрузке получаем таймауты",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000160",
+      "thread_sn": null,
+      "time": 1673137808,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1673085365,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000161",
+      "thread_sn": null,
+      "time": 1673144518,
+      "text": "Нужен code review для PR #1234 — рефакторинг middleware аутентификации",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000162",
+      "thread_sn": null,
+      "time": 1673150028,
+      "text": "Нужна помощь с настройкой rate limiter. Как правильно реализовать sliding window?",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000163",
+      "thread_sn": null,
+      "time": 1673154244,
+      "text": "Добавил кеширование в сервис профилей. Latency p99 упала с 200ms до 15ms",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000164",
+      "thread_sn": null,
+      "time": 1673160551,
+      "text": "Нужна помощь с настройкой rate limiter. Как правильно реализовать sliding window?",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000165",
+      "thread_sn": null,
+      "time": 1673160826,
+      "text": "Миграция БД прошла успешно. PostgreSQL 16 показывает на 20% лучше на наших запросах",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000166",
+      "thread_sn": null,
+      "time": 1673163669,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000167",
+      "thread_sn": null,
+      "time": 1673168368,
+      "text": "Коллеги, кто работал с gRPC streaming в Go? Нужно реализовать bidirectional stream для real-time нотификаций\n@n.mikhailova",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000168",
+      "thread_sn": null,
+      "time": 1673171867,
+      "text": "Переписал обработку ошибок на новые errors в Go 1.22. Стало намного чище",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000169",
+      "thread_sn": null,
+      "time": 1673173201,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1673111522,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000170",
+      "thread_sn": null,
+      "time": 1673178683,
+      "text": "Кто знает как настроить connection pooling для PostgreSQL в Kubernetes?\n@d.kuznetsova",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000171",
+      "thread_sn": null,
+      "time": 1673184298,
+      "text": "Релиз v2.5 запланирован на пятницу. Прошу всех проверить свои MR до четверга",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000172",
+      "thread_sn": null,
+      "time": 1673184420,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "e.popov@corp.example",
+          "text": "Обнаружил проблему с пулом коннектов к Redis. При пиковой нагрузке получаем таймауты"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000173",
+      "thread_sn": null,
+      "time": 1673185462,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "n.mikhailova@corp.example",
+          "text": "Деплой нового сервиса прошёл без даунтайма. Canary на 5% трафика — всё стабильно"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000000174",
+      "thread_sn": null,
+      "time": 1673190099,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "d.kuznetsova@corp.example",
+          "time": 1673184043,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000175",
+      "thread_sn": null,
+      "time": 1673193925,
+      "text": "Написал нагрузочный тест на k6. При 5000 rps сервис держит стабильно, CPU ~60%",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000176",
+      "thread_sn": null,
+      "time": 1673196645,
+      "text": "Добавил кеширование в сервис профилей. Latency p99 упала с 200ms до 15ms\n@a.ivanov",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000177",
+      "thread_sn": null,
+      "time": 1673201529,
+      "text": "Нужен code review для PR #1234 — рефакторинг middleware аутентификации",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000178",
+      "thread_sn": null,
+      "time": 1673202214,
+      "text": "Добавил кеширование в сервис профилей. Latency p99 упала с 200ms до 15ms",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000179",
+      "thread_sn": null,
+      "time": 1673207561,
+      "text": "Нужна помощь с настройкой rate limiter. Как правильно реализовать sliding window?\n@c.sidorov",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000180",
+      "thread_sn": null,
+      "time": 1673213952,
+      "text": "Предлагаю добавить distributed tracing через OpenTelemetry. Без него дебаг микросервисов — боль",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000181",
+      "thread_sn": null,
+      "time": 1673219279,
+      "text": "Нужен code review для PR #1234 — рефакторинг middleware аутентификации\n@a.ivanov",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000182",
+      "thread_sn": null,
+      "time": 1673224511,
+      "text": "Вопрос по архитектуре: стоит ли использовать CQRS для нашего сервиса заказов? Нагрузка ~10k rps",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000183",
+      "thread_sn": null,
+      "time": 1673225037,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "n.mikhailova@corp.example",
+          "time": 1673143570,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000184",
+      "thread_sn": null,
+      "time": 1673229250,
+      "text": "Мы перешли на Go 1.22 и заметили улучшение производительности GC на ~15%. Рекомендую обновиться",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000185",
+      "thread_sn": null,
+      "time": 1673234649,
+      "text": "Мы перешли на Go 1.22 и заметили улучшение производительности GC на ~15%. Рекомендую обновиться",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000186",
+      "thread_sn": null,
+      "time": 1673241568,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1673205496,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000187",
+      "thread_sn": null,
+      "time": 1673247424,
+      "text": "Добавил кеширование в сервис профилей. Latency p99 упала с 200ms до 15ms",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000188",
+      "thread_sn": null,
+      "time": 1673250832,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1673204019,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000000189",
+      "thread_sn": null,
+      "time": 1673251666,
+      "text": "Нужна помощь с настройкой rate limiter. Как правильно реализовать sliding window?",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000190",
+      "thread_sn": null,
+      "time": 1673256499,
+      "text": "Вопрос: как правильно обрабатывать partial failures в saga паттерне?\n@c.sidorov",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000191",
+      "thread_sn": null,
+      "time": 1673259095,
+      "text": "Кто знает как настроить connection pooling для PostgreSQL в Kubernetes?\n@c.sidorov",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000192",
+      "thread_sn": null,
+      "time": 1673262119,
+      "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes\n@l.alekseeva",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000193",
+      "thread_sn": null,
+      "time": 1673264602,
+      "text": "Кто знает как настроить connection pooling для PostgreSQL в Kubernetes?\n@e.popov",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000194",
+      "thread_sn": null,
+      "time": 1673269724,
+      "text": "Нужна помощь с настройкой rate limiter. Как правильно реализовать sliding window?",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000195",
+      "thread_sn": null,
+      "time": 1673273369,
+      "text": "Предлагаю добавить distributed tracing через OpenTelemetry. Без него дебаг микросервисов — боль",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000196",
+      "thread_sn": null,
+      "time": 1673279849,
+      "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000197",
+      "thread_sn": null,
+      "time": 1673285465,
+      "text": "Вопрос: как правильно обрабатывать partial failures в saga паттерне?",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000198",
+      "thread_sn": null,
+      "time": 1673286852,
+      "text": "Обновил зависимости в go.mod. Protobuf обновился до v1.33, есть breaking changes",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000000199",
+      "thread_sn": null,
+      "time": 1673287752,
+      "text": "Миграция БД прошла успешно. PostgreSQL 16 показывает на 20% лучше на наших запросах",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    }
+  ]
+}

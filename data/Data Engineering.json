@@ -1,0 +1,2001 @@
+{
+  "chat": {
+    "id": "34928@chat.example",
+    "name": "Data Engineering",
+    "sn": "34928@chat.example",
+    "type": "group",
+    "is_public": false,
+    "members_count": 35,
+    "members": null
+  },
+  "messages": [
+    {
+      "id": "1000009290",
+      "thread_sn": null,
+      "time": 1672536234,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "m.fedorov@corp.example",
+          "time": 1672455025,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009291",
+      "thread_sn": null,
+      "time": 1672542001,
+      "text": "Data catalog готов. Все таблицы описаны с бизнес-контекстом",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009292",
+      "thread_sn": null,
+      "time": 1672544488,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Data Quality проверки выявили 5% дубликатов в таблице заказов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009293",
+      "thread_sn": null,
+      "time": 1672549787,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "m.fedorov@corp.example",
+          "text": "ETL pipeline на Spark обрабатывает 500GB данных за 2 часа. Нужно оптимизировать"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009294",
+      "thread_sn": null,
+      "time": 1672554226,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009295",
+      "thread_sn": null,
+      "time": 1672559468,
+      "text": "Data catalog готов. Все таблицы описаны с бизнес-контекстом",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009296",
+      "thread_sn": null,
+      "time": 1672564537,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1672532196,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009297",
+      "thread_sn": null,
+      "time": 1672570581,
+      "text": "Real-time стриминг через Kafka Connect подключён к 12 источникам\n@o.nikolaev",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009298",
+      "thread_sn": null,
+      "time": 1672572749,
+      "text": "Data Quality проверки выявили 5% дубликатов в таблице заказов",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009299",
+      "thread_sn": null,
+      "time": 1672577968,
+      "text": "dbt модели обновлены. Документация сгенерирована автоматически\n@g.lebedev",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009300",
+      "thread_sn": null,
+      "time": 1672579514,
+      "text": "Партиционирование таблицы events по дате дало прирост скорости запросов в 50 раз",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009301",
+      "thread_sn": null,
+      "time": 1672581884,
+      "text": "Real-time стриминг через Kafka Connect подключён к 12 источникам\n@i.novikov",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009302",
+      "thread_sn": null,
+      "time": 1672583953,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Data catalog готов. Все таблицы описаны с бизнес-контекстом"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009303",
+      "thread_sn": null,
+      "time": 1672588955,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "f.sokolova@corp.example",
+          "time": 1672579622,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009304",
+      "thread_sn": null,
+      "time": 1672590097,
+      "text": "Real-time стриминг через Kafka Connect подключён к 12 источникам\n@h.kozlova",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009305",
+      "thread_sn": null,
+      "time": 1672591028,
+      "text": "Data Quality проверки выявили 5% дубликатов в таблице заказов\n@d.kuznetsova",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009306",
+      "thread_sn": null,
+      "time": 1672597768,
+      "text": "Data catalog готов. Все таблицы описаны с бизнес-контекстом",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009307",
+      "thread_sn": null,
+      "time": 1672598836,
+      "text": "Data catalog готов. Все таблицы описаны с бизнес-контекстом",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009308",
+      "thread_sn": null,
+      "time": 1672598905,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009309",
+      "thread_sn": null,
+      "time": 1672602122,
+      "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009310",
+      "thread_sn": null,
+      "time": 1672603102,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009311",
+      "thread_sn": null,
+      "time": 1672608205,
+      "text": "ETL pipeline на Spark обрабатывает 500GB данных за 2 часа. Нужно оптимизировать",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009312",
+      "thread_sn": null,
+      "time": 1672612610,
+      "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009313",
+      "thread_sn": null,
+      "time": 1672613521,
+      "text": "Миграция с Hadoop на Databricks завершена. Стоимость снизилась на 40%",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009314",
+      "thread_sn": null,
+      "time": 1672614798,
+      "text": "Партиционирование таблицы events по дате дало прирост скорости запросов в 50 раз",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009315",
+      "thread_sn": null,
+      "time": 1672618359,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009316",
+      "thread_sn": null,
+      "time": 1672622467,
+      "text": "dbt модели обновлены. Документация сгенерирована автоматически\n@f.sokolova",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009317",
+      "thread_sn": null,
+      "time": 1672625666,
+      "text": "Data catalog готов. Все таблицы описаны с бизнес-контекстом",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009318",
+      "thread_sn": null,
+      "time": 1672630485,
+      "text": "Data Quality проверки выявили 5% дубликатов в таблице заказов",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009319",
+      "thread_sn": null,
+      "time": 1672630568,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1672609458,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009320",
+      "thread_sn": null,
+      "time": 1672631530,
+      "text": "Новый источник данных подключён: CRM Salesforce. Синхронизация каждые 15 минут",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009321",
+      "thread_sn": null,
+      "time": 1672638580,
+      "text": "Data Quality проверки выявили 5% дубликатов в таблице заказов\n@i.novikov",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009322",
+      "thread_sn": null,
+      "time": 1672644339,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1672633651,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009323",
+      "thread_sn": null,
+      "time": 1672650144,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "i.novikov@corp.example",
+          "time": 1672642588,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009324",
+      "thread_sn": null,
+      "time": 1672651407,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009325",
+      "thread_sn": null,
+      "time": 1672655315,
+      "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009326",
+      "thread_sn": null,
+      "time": 1672660657,
+      "text": "ETL pipeline на Spark обрабатывает 500GB данных за 2 часа. Нужно оптимизировать",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009327",
+      "thread_sn": null,
+      "time": 1672662030,
+      "text": "Партиционирование таблицы events по дате дало прирост скорости запросов в 50 раз",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009328",
+      "thread_sn": null,
+      "time": 1672666776,
+      "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009329",
+      "thread_sn": null,
+      "time": 1672667861,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "i.novikov@corp.example",
+          "time": 1672590954,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009330",
+      "thread_sn": null,
+      "time": 1672672877,
+      "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009331",
+      "thread_sn": null,
+      "time": 1672679517,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Миграция с Hadoop на Databricks завершена. Стоимость снизилась на 40%"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009332",
+      "thread_sn": null,
+      "time": 1672685956,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009333",
+      "thread_sn": null,
+      "time": 1672687349,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "e.popov@corp.example",
+          "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009334",
+      "thread_sn": null,
+      "time": 1672689061,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Real-time стриминг через Kafka Connect подключён к 12 источникам"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009335",
+      "thread_sn": null,
+      "time": 1672695594,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009336",
+      "thread_sn": null,
+      "time": 1672696417,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009337",
+      "thread_sn": null,
+      "time": 1672702634,
+      "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009338",
+      "thread_sn": null,
+      "time": 1672708450,
+      "text": "Миграция с Hadoop на Databricks завершена. Стоимость снизилась на 40%",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009339",
+      "thread_sn": null,
+      "time": 1672708704,
+      "text": "ETL pipeline на Spark обрабатывает 500GB данных за 2 часа. Нужно оптимизировать",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009340",
+      "thread_sn": null,
+      "time": 1672712557,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "m.fedorov@corp.example",
+          "time": 1672690494,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009341",
+      "thread_sn": null,
+      "time": 1672718915,
+      "text": "Real-time стриминг через Kafka Connect подключён к 12 источникам",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009342",
+      "thread_sn": null,
+      "time": 1672721771,
+      "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API\n@f.sokolova",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009343",
+      "thread_sn": null,
+      "time": 1672723541,
+      "text": "Партиционирование таблицы events по дате дало прирост скорости запросов в 50 раз\n@h.kozlova",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009344",
+      "thread_sn": null,
+      "time": 1672730731,
+      "text": "Миграция с Hadoop на Databricks завершена. Стоимость снизилась на 40%",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009345",
+      "thread_sn": null,
+      "time": 1672732181,
+      "text": "Миграция с Hadoop на Databricks завершена. Стоимость снизилась на 40%\n@g.lebedev",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009346",
+      "thread_sn": null,
+      "time": 1672736117,
+      "text": "Миграция с Hadoop на Databricks завершена. Стоимость снизилась на 40%",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009347",
+      "thread_sn": null,
+      "time": 1672739154,
+      "text": "Новый источник данных подключён: CRM Salesforce. Синхронизация каждые 15 минут",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009348",
+      "thread_sn": null,
+      "time": 1672744330,
+      "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009349",
+      "thread_sn": null,
+      "time": 1672744739,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1672740098,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009350",
+      "thread_sn": null,
+      "time": 1672746065,
+      "text": "Миграция с Hadoop на Databricks завершена. Стоимость снизилась на 40%",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009351",
+      "thread_sn": null,
+      "time": 1672751606,
+      "text": "Партиционирование таблицы events по дате дало прирост скорости запросов в 50 раз\n@i.novikov",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009352",
+      "thread_sn": null,
+      "time": 1672754917,
+      "text": "Real-time стриминг через Kafka Connect подключён к 12 источникам",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009353",
+      "thread_sn": null,
+      "time": 1672758878,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1672736206,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009354",
+      "thread_sn": null,
+      "time": 1672764182,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1672752404,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009355",
+      "thread_sn": null,
+      "time": 1672770865,
+      "text": "Data Quality проверки выявили 5% дубликатов в таблице заказов",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009356",
+      "thread_sn": null,
+      "time": 1672776525,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "o.nikolaev@corp.example",
+          "text": "Миграция с Hadoop на Databricks завершена. Стоимость снизилась на 40%"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009357",
+      "thread_sn": null,
+      "time": 1672777254,
+      "text": "Data Quality проверки выявили 5% дубликатов в таблице заказов",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009358",
+      "thread_sn": null,
+      "time": 1672784117,
+      "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз\n@c.sidorov",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009359",
+      "thread_sn": null,
+      "time": 1672788122,
+      "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009360",
+      "thread_sn": null,
+      "time": 1672791369,
+      "text": "Real-time стриминг через Kafka Connect подключён к 12 источникам",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009361",
+      "thread_sn": null,
+      "time": 1672798175,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009362",
+      "thread_sn": null,
+      "time": 1672799443,
+      "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009363",
+      "thread_sn": null,
+      "time": 1672803193,
+      "text": "ETL pipeline на Spark обрабатывает 500GB данных за 2 часа. Нужно оптимизировать",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009364",
+      "thread_sn": null,
+      "time": 1672806695,
+      "text": "Data Quality проверки выявили 5% дубликатов в таблице заказов",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009365",
+      "thread_sn": null,
+      "time": 1672811480,
+      "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009366",
+      "thread_sn": null,
+      "time": 1672817268,
+      "text": "dbt модели обновлены. Документация сгенерирована автоматически",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009367",
+      "thread_sn": null,
+      "time": 1672823595,
+      "text": "Новый источник данных подключён: CRM Salesforce. Синхронизация каждые 15 минут",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009368",
+      "thread_sn": null,
+      "time": 1672827225,
+      "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009369",
+      "thread_sn": null,
+      "time": 1672834305,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "ETL pipeline на Spark обрабатывает 500GB данных за 2 часа. Нужно оптимизировать"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009370",
+      "thread_sn": null,
+      "time": 1672838431,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1672758648,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009371",
+      "thread_sn": null,
+      "time": 1672845092,
+      "text": "Партиционирование таблицы events по дате дало прирост скорости запросов в 50 раз",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009372",
+      "thread_sn": null,
+      "time": 1672852167,
+      "text": "Партиционирование таблицы events по дате дало прирост скорости запросов в 50 раз",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009373",
+      "thread_sn": null,
+      "time": 1672857992,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009374",
+      "thread_sn": null,
+      "time": 1672864459,
+      "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009375",
+      "thread_sn": null,
+      "time": 1672867916,
+      "text": "ETL pipeline на Spark обрабатывает 500GB данных за 2 часа. Нужно оптимизировать\n@c.sidorov",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009376",
+      "thread_sn": null,
+      "time": 1672872227,
+      "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009377",
+      "thread_sn": null,
+      "time": 1672873865,
+      "text": "Real-time стриминг через Kafka Connect подключён к 12 источникам",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009378",
+      "thread_sn": null,
+      "time": 1672877123,
+      "text": "Data Quality проверки выявили 5% дубликатов в таблице заказов\n@i.novikov",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009379",
+      "thread_sn": null,
+      "time": 1672882355,
+      "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009380",
+      "thread_sn": null,
+      "time": 1672885056,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "f.sokolova@corp.example",
+          "time": 1672803693,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000009381",
+      "thread_sn": null,
+      "time": 1672886369,
+      "text": "Real-time стриминг через Kafka Connect подключён к 12 источникам",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009382",
+      "thread_sn": null,
+      "time": 1672887498,
+      "text": "Data Quality проверки выявили 5% дубликатов в таблице заказов",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009383",
+      "thread_sn": null,
+      "time": 1672889567,
+      "text": "Новый источник данных подключён: CRM Salesforce. Синхронизация каждые 15 минут",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009384",
+      "thread_sn": null,
+      "time": 1672894373,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "b.petrov@corp.example",
+          "text": "Новый источник данных подключён: CRM Salesforce. Синхронизация каждые 15 минут"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009385",
+      "thread_sn": null,
+      "time": 1672895912,
+      "text": "Data Quality проверки выявили 5% дубликатов в таблице заказов",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009386",
+      "thread_sn": null,
+      "time": 1672896151,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009387",
+      "thread_sn": null,
+      "time": 1672901401,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Новый источник данных подключён: CRM Salesforce. Синхронизация каждые 15 минут"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000009388",
+      "thread_sn": null,
+      "time": 1672904269,
+      "text": "Новый источник данных подключён: CRM Salesforce. Синхронизация каждые 15 минут",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009389",
+      "thread_sn": null,
+      "time": 1672905325,
+      "text": "Новый источник данных подключён: CRM Salesforce. Синхронизация каждые 15 минут",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009390",
+      "thread_sn": null,
+      "time": 1672907162,
+      "text": "Новый источник данных подключён: CRM Salesforce. Синхронизация каждые 15 минут",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009391",
+      "thread_sn": null,
+      "time": 1672907975,
+      "text": "Партиционирование таблицы events по дате дало прирост скорости запросов в 50 раз",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009392",
+      "thread_sn": null,
+      "time": 1672909616,
+      "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009393",
+      "thread_sn": null,
+      "time": 1672916173,
+      "text": "Партиционирование таблицы events по дате дало прирост скорости запросов в 50 раз",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009394",
+      "thread_sn": null,
+      "time": 1672921118,
+      "text": "Airflow DAG для ежедневного отчёта падает. Причина — timeout на запрос к API\n@c.sidorov",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009395",
+      "thread_sn": null,
+      "time": 1672926361,
+      "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009396",
+      "thread_sn": null,
+      "time": 1672933193,
+      "text": "Миграция с Hadoop на Databricks завершена. Стоимость снизилась на 40%\n@c.sidorov",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009397",
+      "thread_sn": null,
+      "time": 1672934776,
+      "text": "Новый источник данных подключён: CRM Salesforce. Синхронизация каждые 15 минут",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009398",
+      "thread_sn": null,
+      "time": 1672937445,
+      "text": "dbt модели обновлены. Документация сгенерирована автоматически",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000009399",
+      "thread_sn": null,
+      "time": 1672940663,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "ClickHouse кластер масштабирован до 6 нод. Запросы по агрегатам ускорились в 10 раз"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    }
+  ]
+}

@@ -1,0 +1,1581 @@
+{
+  "chat": {
+    "id": "57344@chat.example",
+    "name": "Mobile Dev",
+    "sn": "57344@chat.example",
+    "type": "group",
+    "is_public": true,
+    "members_count": 40,
+    "members": null
+  },
+  "messages": [
+    {
+      "id": "1000008200",
+      "thread_sn": null,
+      "time": 1672536988,
+      "text": "Deep linking настроен. Universal Links (iOS) и App Links (Android) работают",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008201",
+      "thread_sn": null,
+      "time": 1672537073,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Compose Multiplatform позволит шарить UI между Android и iOS. Стоит попробовать?"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000008202",
+      "thread_sn": null,
+      "time": 1672543160,
+      "text": "Тёмная тема для мобилки готова. Тестируйте на своих устройствах",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008203",
+      "thread_sn": null,
+      "time": 1672547120,
+      "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008204",
+      "thread_sn": null,
+      "time": 1672554305,
+      "text": "iOS приложение прошло review в App Store. Релиз завтра\n@h.kozlova",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008205",
+      "thread_sn": null,
+      "time": 1672561183,
+      "text": "Deep linking настроен. Universal Links (iOS) и App Links (Android) работают",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008206",
+      "thread_sn": null,
+      "time": 1672565672,
+      "text": "Android: crash rate снизился с 2% до 0.3% после оптимизации памяти\n@i.novikov",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008207",
+      "thread_sn": null,
+      "time": 1672568406,
+      "text": "Deep linking настроен. Universal Links (iOS) и App Links (Android) работают",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008208",
+      "thread_sn": null,
+      "time": 1672573917,
+      "text": "Compose Multiplatform позволит шарить UI между Android и iOS. Стоит попробовать?",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008209",
+      "thread_sn": null,
+      "time": 1672580254,
+      "text": "Размер APK вырос до 80MB. Нужно оптимизировать ресурсы",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008210",
+      "thread_sn": null,
+      "time": 1672587327,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "o.nikolaev@corp.example",
+          "text": "Android: crash rate снизился с 2% до 0.3% после оптимизации памяти"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000008211",
+      "thread_sn": null,
+      "time": 1672590174,
+      "text": "Тёмная тема для мобилки готова. Тестируйте на своих устройствах",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008212",
+      "thread_sn": null,
+      "time": 1672593348,
+      "text": "SwiftUI vs UIKit: для нового экрана рекомендую SwiftUI, меньше кода",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008213",
+      "thread_sn": null,
+      "time": 1672596026,
+      "text": "Firebase Analytics интегрирован. Отслеживаем все ключевые события",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008214",
+      "thread_sn": null,
+      "time": 1672596959,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008215",
+      "thread_sn": null,
+      "time": 1672599607,
+      "text": "Deep linking настроен. Universal Links (iOS) и App Links (Android) работают\n@f.sokolova",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008216",
+      "thread_sn": null,
+      "time": 1672605117,
+      "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008217",
+      "thread_sn": null,
+      "time": 1672607417,
+      "text": "Deep linking настроен. Universal Links (iOS) и App Links (Android) работают",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008218",
+      "thread_sn": null,
+      "time": 1672607958,
+      "text": "SwiftUI vs UIKit: для нового экрана рекомендую SwiftUI, меньше кода",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008219",
+      "thread_sn": null,
+      "time": 1672615107,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008220",
+      "thread_sn": null,
+      "time": 1672617931,
+      "text": "Размер APK вырос до 80MB. Нужно оптимизировать ресурсы\n@i.novikov",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008221",
+      "thread_sn": null,
+      "time": 1672623695,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008222",
+      "thread_sn": null,
+      "time": 1672630848,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008223",
+      "thread_sn": null,
+      "time": 1672634860,
+      "text": "SwiftUI vs UIKit: для нового экрана рекомендую SwiftUI, меньше кода",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008224",
+      "thread_sn": null,
+      "time": 1672640867,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008225",
+      "thread_sn": null,
+      "time": 1672646493,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "l.alekseeva@corp.example",
+          "time": 1672619349,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000008226",
+      "thread_sn": null,
+      "time": 1672646982,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008227",
+      "thread_sn": null,
+      "time": 1672647320,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008228",
+      "thread_sn": null,
+      "time": 1672653047,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1672599365,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000008229",
+      "thread_sn": null,
+      "time": 1672655361,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Android: crash rate снизился с 2% до 0.3% после оптимизации памяти"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000008230",
+      "thread_sn": null,
+      "time": 1672660675,
+      "text": "Тёмная тема для мобилки готова. Тестируйте на своих устройствах",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008231",
+      "thread_sn": null,
+      "time": 1672661509,
+      "text": "Размер APK вырос до 80MB. Нужно оптимизировать ресурсы",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008232",
+      "thread_sn": null,
+      "time": 1672664233,
+      "text": "Размер APK вырос до 80MB. Нужно оптимизировать ресурсы",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008233",
+      "thread_sn": null,
+      "time": 1672668848,
+      "text": "Firebase Analytics интегрирован. Отслеживаем все ключевые события",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008234",
+      "thread_sn": null,
+      "time": 1672675615,
+      "text": "Android: crash rate снизился с 2% до 0.3% после оптимизации памяти\n@m.fedorov",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008235",
+      "thread_sn": null,
+      "time": 1672675718,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "n.mikhailova@corp.example",
+          "text": "Тёмная тема для мобилки готова. Тестируйте на своих устройствах"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000008236",
+      "thread_sn": null,
+      "time": 1672677098,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Android: crash rate снизился с 2% до 0.3% после оптимизации памяти"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000008237",
+      "thread_sn": null,
+      "time": 1672681617,
+      "text": "",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000008238",
+      "thread_sn": null,
+      "time": 1672688089,
+      "text": "Compose Multiplatform позволит шарить UI между Android и iOS. Стоит попробовать?",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008239",
+      "thread_sn": null,
+      "time": 1672691033,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "iOS приложение прошло review в App Store. Релиз завтра"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000008240",
+      "thread_sn": null,
+      "time": 1672692633,
+      "text": "Тёмная тема для мобилки готова. Тестируйте на своих устройствах",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008241",
+      "thread_sn": null,
+      "time": 1672694965,
+      "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008242",
+      "thread_sn": null,
+      "time": 1672698302,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008243",
+      "thread_sn": null,
+      "time": 1672704364,
+      "text": "Compose Multiplatform позволит шарить UI между Android и iOS. Стоит попробовать?",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008244",
+      "thread_sn": null,
+      "time": 1672708613,
+      "text": "Размер APK вырос до 80MB. Нужно оптимизировать ресурсы",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008245",
+      "thread_sn": null,
+      "time": 1672710700,
+      "text": "Размер APK вырос до 80MB. Нужно оптимизировать ресурсы\n@n.mikhailova",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008246",
+      "thread_sn": null,
+      "time": 1672713492,
+      "text": "iOS приложение прошло review в App Store. Релиз завтра\n@a.ivanov",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008247",
+      "thread_sn": null,
+      "time": 1672714412,
+      "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008248",
+      "thread_sn": null,
+      "time": 1672715254,
+      "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008249",
+      "thread_sn": null,
+      "time": 1672716712,
+      "text": "Firebase Analytics интегрирован. Отслеживаем все ключевые события",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008250",
+      "thread_sn": null,
+      "time": 1672720070,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008251",
+      "thread_sn": null,
+      "time": 1672724779,
+      "text": "Compose Multiplatform позволит шарить UI между Android и iOS. Стоит попробовать?",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008252",
+      "thread_sn": null,
+      "time": 1672729825,
+      "text": "Deep linking настроен. Universal Links (iOS) и App Links (Android) работают",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008253",
+      "thread_sn": null,
+      "time": 1672733389,
+      "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008254",
+      "thread_sn": null,
+      "time": 1672735952,
+      "text": "Android: crash rate снизился с 2% до 0.3% после оптимизации памяти",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008255",
+      "thread_sn": null,
+      "time": 1672737364,
+      "text": "Deep linking настроен. Universal Links (iOS) и App Links (Android) работают",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008256",
+      "thread_sn": null,
+      "time": 1672740897,
+      "text": "Firebase Analytics интегрирован. Отслеживаем все ключевые события",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008257",
+      "thread_sn": null,
+      "time": 1672745318,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1672740763,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000008258",
+      "thread_sn": null,
+      "time": 1672751228,
+      "text": "Firebase Analytics интегрирован. Отслеживаем все ключевые события",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008259",
+      "thread_sn": null,
+      "time": 1672754963,
+      "text": "SwiftUI vs UIKit: для нового экрана рекомендую SwiftUI, меньше кода\n@k.volkov",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008260",
+      "thread_sn": null,
+      "time": 1672759231,
+      "text": "Compose Multiplatform позволит шарить UI между Android и iOS. Стоит попробовать?",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008261",
+      "thread_sn": null,
+      "time": 1672764853,
+      "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008262",
+      "thread_sn": null,
+      "time": 1672766658,
+      "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008263",
+      "thread_sn": null,
+      "time": 1672770941,
+      "text": "Deep linking настроен. Universal Links (iOS) и App Links (Android) работают\n@g.lebedev",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008264",
+      "thread_sn": null,
+      "time": 1672773692,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "b.petrov@corp.example",
+          "time": 1672723623,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000008265",
+      "thread_sn": null,
+      "time": 1672773824,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008266",
+      "thread_sn": null,
+      "time": 1672773940,
+      "text": "Compose Multiplatform позволит шарить UI между Android и iOS. Стоит попробовать?",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008267",
+      "thread_sn": null,
+      "time": 1672775492,
+      "text": "Deep linking настроен. Universal Links (iOS) и App Links (Android) работают\n@k.volkov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008268",
+      "thread_sn": null,
+      "time": 1672775599,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "j.morozov@corp.example",
+          "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "j.morozov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000008269",
+      "thread_sn": null,
+      "time": 1672778891,
+      "text": "SwiftUI vs UIKit: для нового экрана рекомендую SwiftUI, меньше кода",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008270",
+      "thread_sn": null,
+      "time": 1672781128,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008271",
+      "thread_sn": null,
+      "time": 1672784463,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?\n@o.nikolaev",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008272",
+      "thread_sn": null,
+      "time": 1672785556,
+      "text": "",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1672737111,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000008273",
+      "thread_sn": null,
+      "time": 1672789135,
+      "text": "Deep linking настроен. Universal Links (iOS) и App Links (Android) работают\n@b.petrov",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008274",
+      "thread_sn": null,
+      "time": 1672790444,
+      "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008275",
+      "thread_sn": null,
+      "time": 1672797226,
+      "text": "Firebase Analytics интегрирован. Отслеживаем все ключевые события",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008276",
+      "thread_sn": null,
+      "time": 1672804289,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Размер APK вырос до 80MB. Нужно оптимизировать ресурсы"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000008277",
+      "thread_sn": null,
+      "time": 1672805923,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1672795645,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000008278",
+      "thread_sn": null,
+      "time": 1672809098,
+      "text": "SwiftUI vs UIKit: для нового экрана рекомендую SwiftUI, меньше кода",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008279",
+      "thread_sn": null,
+      "time": 1672813334,
+      "text": "Push-уведомления не доходят на Xiaomi. Проблема с MIUI оптимизацией батареи",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008280",
+      "thread_sn": null,
+      "time": 1672815417,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Compose Multiplatform позволит шарить UI между Android и iOS. Стоит попробовать?"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000008281",
+      "thread_sn": null,
+      "time": 1672819344,
+      "text": "Deep linking настроен. Universal Links (iOS) и App Links (Android) работают",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008282",
+      "thread_sn": null,
+      "time": 1672820197,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008283",
+      "thread_sn": null,
+      "time": 1672826568,
+      "text": "Тёмная тема для мобилки готова. Тестируйте на своих устройствах",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008284",
+      "thread_sn": null,
+      "time": 1672831954,
+      "text": "Новая версия Kotlin 2.0 — кто уже мигрировал? Какие впечатления?",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008285",
+      "thread_sn": null,
+      "time": 1672832350,
+      "text": "SwiftUI vs UIKit: для нового экрана рекомендую SwiftUI, меньше кода",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008286",
+      "thread_sn": null,
+      "time": 1672833023,
+      "text": "SwiftUI vs UIKit: для нового экрана рекомендую SwiftUI, меньше кода",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008287",
+      "thread_sn": null,
+      "time": 1672834130,
+      "text": "Firebase Analytics интегрирован. Отслеживаем все ключевые события",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000008288",
+      "thread_sn": null,
+      "time": 1672837863,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "j.morozov@corp.example",
+          "text": "Размер APK вырос до 80MB. Нужно оптимизировать ресурсы"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "j.morozov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000008289",
+      "thread_sn": null,
+      "time": 1672842831,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Тёмная тема для мобилки готова. Тестируйте на своих устройствах"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    }
+  ]
+}

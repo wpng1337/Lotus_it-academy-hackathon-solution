@@ -1,0 +1,5339 @@
+{
+  "chat": {
+    "id": "77632@chat.example",
+    "name": "DevOps & Infra",
+    "sn": "77632@chat.example",
+    "type": "channel",
+    "is_public": true,
+    "members_count": 200,
+    "members": null
+  },
+  "messages": [
+    {
+      "id": "1000002350",
+      "thread_sn": null,
+      "time": 1672537795,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов\n@g.lebedev",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002351",
+      "thread_sn": null,
+      "time": 1672541537,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1672501454,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002352",
+      "thread_sn": null,
+      "time": 1672547760,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "d.kuznetsova@corp.example",
+          "time": 1672473789,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002353",
+      "thread_sn": null,
+      "time": 1672549351,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002354",
+      "thread_sn": null,
+      "time": 1672551978,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002355",
+      "thread_sn": null,
+      "time": 1672553451,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana\n@c.sidorov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002356",
+      "thread_sn": null,
+      "time": 1672555465,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002357",
+      "thread_sn": null,
+      "time": 1672556654,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002358",
+      "thread_sn": null,
+      "time": 1672558133,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002359",
+      "thread_sn": null,
+      "time": 1672561134,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002360",
+      "thread_sn": null,
+      "time": 1672566803,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002361",
+      "thread_sn": null,
+      "time": 1672568669,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002362",
+      "thread_sn": null,
+      "time": 1672573133,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002363",
+      "thread_sn": null,
+      "time": 1672577884,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002364",
+      "thread_sn": null,
+      "time": 1672583833,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002365",
+      "thread_sn": null,
+      "time": 1672584157,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002366",
+      "thread_sn": null,
+      "time": 1672590867,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002367",
+      "thread_sn": null,
+      "time": 1672592286,
+      "text": "Kubernetes кластер обновлён до 1.30. Прошу проверить свои деплойменты",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002368",
+      "thread_sn": null,
+      "time": 1672597235,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002369",
+      "thread_sn": null,
+      "time": 1672602859,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено\n@f.sokolova",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002370",
+      "thread_sn": null,
+      "time": 1672603958,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002371",
+      "thread_sn": null,
+      "time": 1672607235,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002372",
+      "thread_sn": null,
+      "time": 1672613593,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002373",
+      "thread_sn": null,
+      "time": 1672616334,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002374",
+      "thread_sn": null,
+      "time": 1672617157,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars\n@g.lebedev",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002375",
+      "thread_sn": null,
+      "time": 1672620736,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002376",
+      "thread_sn": null,
+      "time": 1672627779,
+      "text": "Kubernetes кластер обновлён до 1.30. Прошу проверить свои деплойменты\n@d.kuznetsova",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002377",
+      "thread_sn": null,
+      "time": 1672627972,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002378",
+      "thread_sn": null,
+      "time": 1672629112,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002379",
+      "thread_sn": null,
+      "time": 1672632218,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002380",
+      "thread_sn": null,
+      "time": 1672635794,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1672621979,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002381",
+      "thread_sn": null,
+      "time": 1672636941,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Реализовал blue-green deployment для критичных сервисов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002382",
+      "thread_sn": null,
+      "time": 1672637988,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002383",
+      "thread_sn": null,
+      "time": 1672644650,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002384",
+      "thread_sn": null,
+      "time": 1672645800,
+      "text": "Kubernetes кластер обновлён до 1.30. Прошу проверить свои деплойменты",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002385",
+      "thread_sn": null,
+      "time": 1672648736,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002386",
+      "thread_sn": null,
+      "time": 1672649506,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002387",
+      "thread_sn": null,
+      "time": 1672650711,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1672568467,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002388",
+      "thread_sn": null,
+      "time": 1672656678,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002389",
+      "thread_sn": null,
+      "time": 1672660979,
+      "text": "Kubernetes кластер обновлён до 1.30. Прошу проверить свои деплойменты",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002390",
+      "thread_sn": null,
+      "time": 1672662999,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002391",
+      "thread_sn": null,
+      "time": 1672666017,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002392",
+      "thread_sn": null,
+      "time": 1672669935,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002393",
+      "thread_sn": null,
+      "time": 1672676460,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002394",
+      "thread_sn": null,
+      "time": 1672681767,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002395",
+      "thread_sn": null,
+      "time": 1672683099,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002396",
+      "thread_sn": null,
+      "time": 1672688882,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002397",
+      "thread_sn": null,
+      "time": 1672692656,
+      "text": "Реализовал blue-green deployment для критичных сервисов\n@i.novikov",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002398",
+      "thread_sn": null,
+      "time": 1672698462,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002399",
+      "thread_sn": null,
+      "time": 1672701568,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002400",
+      "thread_sn": null,
+      "time": 1672708239,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1672694538,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002401",
+      "thread_sn": null,
+      "time": 1672712363,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1672660570,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002402",
+      "thread_sn": null,
+      "time": 1672713711,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002403",
+      "thread_sn": null,
+      "time": 1672714131,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002404",
+      "thread_sn": null,
+      "time": 1672721215,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002405",
+      "thread_sn": null,
+      "time": 1672727175,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "i.novikov@corp.example",
+          "time": 1672657772,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002406",
+      "thread_sn": null,
+      "time": 1672732750,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов\n@o.nikolaev",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002407",
+      "thread_sn": null,
+      "time": 1672739146,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "i.novikov@corp.example",
+          "time": 1672687192,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002408",
+      "thread_sn": null,
+      "time": 1672740849,
+      "text": "Grafana дашборд для нового сервиса готов: CPU, Memory, RPS, Error Rate, Latency percentiles",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002409",
+      "thread_sn": null,
+      "time": 1672747238,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK\n@o.nikolaev",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002410",
+      "thread_sn": null,
+      "time": 1672751734,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002411",
+      "thread_sn": null,
+      "time": 1672757178,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "o.nikolaev@corp.example",
+          "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002412",
+      "thread_sn": null,
+      "time": 1672761268,
+      "text": "Kubernetes кластер обновлён до 1.30. Прошу проверить свои деплойменты",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002413",
+      "thread_sn": null,
+      "time": 1672765585,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002414",
+      "thread_sn": null,
+      "time": 1672770865,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002415",
+      "thread_sn": null,
+      "time": 1672773314,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002416",
+      "thread_sn": null,
+      "time": 1672775601,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana\n@i.novikov",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002417",
+      "thread_sn": null,
+      "time": 1672779478,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002418",
+      "thread_sn": null,
+      "time": 1672786521,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002419",
+      "thread_sn": null,
+      "time": 1672793428,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "f.sokolova@corp.example",
+          "time": 1672737892,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002420",
+      "thread_sn": null,
+      "time": 1672797694,
+      "text": "Kubernetes кластер обновлён до 1.30. Прошу проверить свои деплойменты",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002421",
+      "thread_sn": null,
+      "time": 1672802308,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "d.kuznetsova@corp.example",
+          "time": 1672780386,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002422",
+      "thread_sn": null,
+      "time": 1672803362,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002423",
+      "thread_sn": null,
+      "time": 1672808585,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди\n@i.novikov",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002424",
+      "thread_sn": null,
+      "time": 1672813936,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "i.novikov@corp.example",
+          "time": 1672804740,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002425",
+      "thread_sn": null,
+      "time": 1672817772,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002426",
+      "thread_sn": null,
+      "time": 1672821327,
+      "text": "Grafana дашборд для нового сервиса готов: CPU, Memory, RPS, Error Rate, Latency percentiles",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002427",
+      "thread_sn": null,
+      "time": 1672826459,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002428",
+      "thread_sn": null,
+      "time": 1672829656,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002429",
+      "thread_sn": null,
+      "time": 1672836227,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002430",
+      "thread_sn": null,
+      "time": 1672840920,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002431",
+      "thread_sn": null,
+      "time": 1672847621,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002432",
+      "thread_sn": null,
+      "time": 1672848988,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002433",
+      "thread_sn": null,
+      "time": 1672850845,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002434",
+      "thread_sn": null,
+      "time": 1672852842,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana\n@h.kozlova",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002435",
+      "thread_sn": null,
+      "time": 1672857552,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002436",
+      "thread_sn": null,
+      "time": 1672860143,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1672827864,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002437",
+      "thread_sn": null,
+      "time": 1672860366,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB\n@h.kozlova",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002438",
+      "thread_sn": null,
+      "time": 1672866999,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1672844833,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002439",
+      "thread_sn": null,
+      "time": 1672873402,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002440",
+      "thread_sn": null,
+      "time": 1672878262,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002441",
+      "thread_sn": null,
+      "time": 1672882313,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002442",
+      "thread_sn": null,
+      "time": 1672884201,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002443",
+      "thread_sn": null,
+      "time": 1672884275,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana\n@g.lebedev",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002444",
+      "thread_sn": null,
+      "time": 1672890960,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002445",
+      "thread_sn": null,
+      "time": 1672893861,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "o.nikolaev@corp.example",
+          "text": "Реализовал blue-green deployment для критичных сервисов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002446",
+      "thread_sn": null,
+      "time": 1672894014,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB\n@i.novikov",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002447",
+      "thread_sn": null,
+      "time": 1672897663,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002448",
+      "thread_sn": null,
+      "time": 1672898553,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002449",
+      "thread_sn": null,
+      "time": 1672905160,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002450",
+      "thread_sn": null,
+      "time": 1672907830,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1672883140,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002451",
+      "thread_sn": null,
+      "time": 1672913886,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002452",
+      "thread_sn": null,
+      "time": 1672914199,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers\n@f.sokolova",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002453",
+      "thread_sn": null,
+      "time": 1672915815,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002454",
+      "thread_sn": null,
+      "time": 1672916660,
+      "text": "Kubernetes кластер обновлён до 1.30. Прошу проверить свои деплойменты",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002455",
+      "thread_sn": null,
+      "time": 1672919132,
+      "text": "Kubernetes кластер обновлён до 1.30. Прошу проверить свои деплойменты",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002456",
+      "thread_sn": null,
+      "time": 1672919863,
+      "text": "Grafana дашборд для нового сервиса готов: CPU, Memory, RPS, Error Rate, Latency percentiles",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002457",
+      "thread_sn": null,
+      "time": 1672925181,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002458",
+      "thread_sn": null,
+      "time": 1672929050,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002459",
+      "thread_sn": null,
+      "time": 1672934583,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002460",
+      "thread_sn": null,
+      "time": 1672941347,
+      "text": "Grafana дашборд для нового сервиса готов: CPU, Memory, RPS, Error Rate, Latency percentiles",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002461",
+      "thread_sn": null,
+      "time": 1672943855,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002462",
+      "thread_sn": null,
+      "time": 1672950117,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB\n@i.novikov",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002463",
+      "thread_sn": null,
+      "time": 1672955773,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002464",
+      "thread_sn": null,
+      "time": 1672961789,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002465",
+      "thread_sn": null,
+      "time": 1672961950,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002466",
+      "thread_sn": null,
+      "time": 1672966826,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002467",
+      "thread_sn": null,
+      "time": 1672973992,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002468",
+      "thread_sn": null,
+      "time": 1672974358,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002469",
+      "thread_sn": null,
+      "time": 1672977133,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002470",
+      "thread_sn": null,
+      "time": 1672983694,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил\n@d.kuznetsova",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002471",
+      "thread_sn": null,
+      "time": 1672986215,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002472",
+      "thread_sn": null,
+      "time": 1672989893,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002473",
+      "thread_sn": null,
+      "time": 1672994174,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002474",
+      "thread_sn": null,
+      "time": 1672998892,
+      "text": "Kubernetes кластер обновлён до 1.30. Прошу проверить свои деплойменты",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002475",
+      "thread_sn": null,
+      "time": 1673001904,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002476",
+      "thread_sn": null,
+      "time": 1673002214,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002477",
+      "thread_sn": null,
+      "time": 1673005094,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002478",
+      "thread_sn": null,
+      "time": 1673006488,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002479",
+      "thread_sn": null,
+      "time": 1673011885,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил\n@c.sidorov",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002480",
+      "thread_sn": null,
+      "time": 1673016869,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002481",
+      "thread_sn": null,
+      "time": 1673021912,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002482",
+      "thread_sn": null,
+      "time": 1673024828,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002483",
+      "thread_sn": null,
+      "time": 1673024948,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002484",
+      "thread_sn": null,
+      "time": 1673027453,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1672981237,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002485",
+      "thread_sn": null,
+      "time": 1673034570,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще\n@g.lebedev",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002486",
+      "thread_sn": null,
+      "time": 1673035095,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002487",
+      "thread_sn": null,
+      "time": 1673040524,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002488",
+      "thread_sn": null,
+      "time": 1673045270,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002489",
+      "thread_sn": null,
+      "time": 1673050833,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002490",
+      "thread_sn": null,
+      "time": 1673054749,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено\n@h.kozlova",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002491",
+      "thread_sn": null,
+      "time": 1673060170,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002492",
+      "thread_sn": null,
+      "time": 1673062364,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002493",
+      "thread_sn": null,
+      "time": 1673067508,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002494",
+      "thread_sn": null,
+      "time": 1673070012,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "o.nikolaev@corp.example",
+          "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002495",
+      "thread_sn": null,
+      "time": 1673074736,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002496",
+      "thread_sn": null,
+      "time": 1673076244,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1673050545,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002497",
+      "thread_sn": null,
+      "time": 1673081024,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002498",
+      "thread_sn": null,
+      "time": 1673084388,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002499",
+      "thread_sn": null,
+      "time": 1673087087,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002500",
+      "thread_sn": null,
+      "time": 1673089967,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers\n@i.novikov",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002501",
+      "thread_sn": null,
+      "time": 1673092409,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002502",
+      "thread_sn": null,
+      "time": 1673096484,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002503",
+      "thread_sn": null,
+      "time": 1673102500,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "c.sidorov@corp.example",
+          "time": 1673082757,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002504",
+      "thread_sn": null,
+      "time": 1673105563,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "d.kuznetsova@corp.example",
+          "time": 1673031875,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002505",
+      "thread_sn": null,
+      "time": 1673110727,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1673104540,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002506",
+      "thread_sn": null,
+      "time": 1673111182,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002507",
+      "thread_sn": null,
+      "time": 1673112496,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил\n@g.lebedev",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002508",
+      "thread_sn": null,
+      "time": 1673117517,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Реализовал blue-green deployment для критичных сервисов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002509",
+      "thread_sn": null,
+      "time": 1673118510,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002510",
+      "thread_sn": null,
+      "time": 1673121502,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002511",
+      "thread_sn": null,
+      "time": 1673124270,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002512",
+      "thread_sn": null,
+      "time": 1673125059,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002513",
+      "thread_sn": null,
+      "time": 1673131046,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002514",
+      "thread_sn": null,
+      "time": 1673137767,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002515",
+      "thread_sn": null,
+      "time": 1673138605,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1673112656,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002516",
+      "thread_sn": null,
+      "time": 1673141357,
+      "text": "Реализовал blue-green deployment для критичных сервисов\n@d.kuznetsova",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002517",
+      "thread_sn": null,
+      "time": 1673142349,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002518",
+      "thread_sn": null,
+      "time": 1673147724,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars\n@o.nikolaev",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002519",
+      "thread_sn": null,
+      "time": 1673151738,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002520",
+      "thread_sn": null,
+      "time": 1673157405,
+      "text": "Grafana дашборд для нового сервиса готов: CPU, Memory, RPS, Error Rate, Latency percentiles\n@o.nikolaev",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002521",
+      "thread_sn": null,
+      "time": 1673157983,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "d.kuznetsova@corp.example",
+          "time": 1673078801,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002522",
+      "thread_sn": null,
+      "time": 1673163972,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002523",
+      "thread_sn": null,
+      "time": 1673164812,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002524",
+      "thread_sn": null,
+      "time": 1673171642,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002525",
+      "thread_sn": null,
+      "time": 1673178655,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Grafana дашборд для нового сервиса готов: CPU, Memory, RPS, Error Rate, Latency percentiles"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002526",
+      "thread_sn": null,
+      "time": 1673181425,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002527",
+      "thread_sn": null,
+      "time": 1673185123,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1673140097,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002528",
+      "thread_sn": null,
+      "time": 1673186155,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1673177859,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002529",
+      "thread_sn": null,
+      "time": 1673190779,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002530",
+      "thread_sn": null,
+      "time": 1673197325,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002531",
+      "thread_sn": null,
+      "time": 1673200177,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002532",
+      "thread_sn": null,
+      "time": 1673204112,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002533",
+      "thread_sn": null,
+      "time": 1673206968,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002534",
+      "thread_sn": null,
+      "time": 1673208372,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002535",
+      "thread_sn": null,
+      "time": 1673209421,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002536",
+      "thread_sn": null,
+      "time": 1673209861,
+      "text": "Grafana дашборд для нового сервиса готов: CPU, Memory, RPS, Error Rate, Latency percentiles",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002537",
+      "thread_sn": null,
+      "time": 1673214051,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1673153722,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002538",
+      "thread_sn": null,
+      "time": 1673220982,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002539",
+      "thread_sn": null,
+      "time": 1673227720,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002540",
+      "thread_sn": null,
+      "time": 1673232768,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002541",
+      "thread_sn": null,
+      "time": 1673236209,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002542",
+      "thread_sn": null,
+      "time": 1673242305,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002543",
+      "thread_sn": null,
+      "time": 1673243451,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002544",
+      "thread_sn": null,
+      "time": 1673249743,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002545",
+      "thread_sn": null,
+      "time": 1673256695,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы\n@o.nikolaev",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002546",
+      "thread_sn": null,
+      "time": 1673262245,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002547",
+      "thread_sn": null,
+      "time": 1673262813,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002548",
+      "thread_sn": null,
+      "time": 1673269983,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002549",
+      "thread_sn": null,
+      "time": 1673276570,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "o.nikolaev@corp.example",
+          "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002550",
+      "thread_sn": null,
+      "time": 1673283086,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002551",
+      "thread_sn": null,
+      "time": 1673290263,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002552",
+      "thread_sn": null,
+      "time": 1673296508,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002553",
+      "thread_sn": null,
+      "time": 1673302160,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов\n@f.sokolova",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002554",
+      "thread_sn": null,
+      "time": 1673303285,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002555",
+      "thread_sn": null,
+      "time": 1673305987,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002556",
+      "thread_sn": null,
+      "time": 1673310553,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002557",
+      "thread_sn": null,
+      "time": 1673311918,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002558",
+      "thread_sn": null,
+      "time": 1673314933,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002559",
+      "thread_sn": null,
+      "time": 1673315065,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002560",
+      "thread_sn": null,
+      "time": 1673315451,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002561",
+      "thread_sn": null,
+      "time": 1673317827,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002562",
+      "thread_sn": null,
+      "time": 1673320315,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002563",
+      "thread_sn": null,
+      "time": 1673324743,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002564",
+      "thread_sn": null,
+      "time": 1673325654,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002565",
+      "thread_sn": null,
+      "time": 1673326304,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "i.novikov@corp.example",
+          "time": 1673311233,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002566",
+      "thread_sn": null,
+      "time": 1673326964,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002567",
+      "thread_sn": null,
+      "time": 1673330363,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002568",
+      "thread_sn": null,
+      "time": 1673335677,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002569",
+      "thread_sn": null,
+      "time": 1673339856,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002570",
+      "thread_sn": null,
+      "time": 1673343152,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002571",
+      "thread_sn": null,
+      "time": 1673350170,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002572",
+      "thread_sn": null,
+      "time": 1673356204,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы\n@i.novikov",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002573",
+      "thread_sn": null,
+      "time": 1673361151,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002574",
+      "thread_sn": null,
+      "time": 1673362945,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002575",
+      "thread_sn": null,
+      "time": 1673369843,
+      "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars\n@d.kuznetsova",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002576",
+      "thread_sn": null,
+      "time": 1673374399,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "f.sokolova@corp.example",
+          "time": 1673357928,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002577",
+      "thread_sn": null,
+      "time": 1673376076,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002578",
+      "thread_sn": null,
+      "time": 1673381211,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002579",
+      "thread_sn": null,
+      "time": 1673382519,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers\n@c.sidorov",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002580",
+      "thread_sn": null,
+      "time": 1673388413,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002581",
+      "thread_sn": null,
+      "time": 1673392264,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002582",
+      "thread_sn": null,
+      "time": 1673394622,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002583",
+      "thread_sn": null,
+      "time": 1673395299,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002584",
+      "thread_sn": null,
+      "time": 1673395659,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002585",
+      "thread_sn": null,
+      "time": 1673397548,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "o.nikolaev@corp.example",
+          "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002586",
+      "thread_sn": null,
+      "time": 1673400588,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002587",
+      "thread_sn": null,
+      "time": 1673407594,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002588",
+      "thread_sn": null,
+      "time": 1673412289,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело\n@d.kuznetsova",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002589",
+      "thread_sn": null,
+      "time": 1673412863,
+      "text": "",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1673361914,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002590",
+      "thread_sn": null,
+      "time": 1673416102,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002591",
+      "thread_sn": null,
+      "time": 1673421927,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002592",
+      "thread_sn": null,
+      "time": 1673427341,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002593",
+      "thread_sn": null,
+      "time": 1673429226,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002594",
+      "thread_sn": null,
+      "time": 1673433397,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002595",
+      "thread_sn": null,
+      "time": 1673436424,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002596",
+      "thread_sn": null,
+      "time": 1673442015,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов\n@i.novikov",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002597",
+      "thread_sn": null,
+      "time": 1673446927,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers\n@f.sokolova",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002598",
+      "thread_sn": null,
+      "time": 1673451219,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "i.novikov@corp.example",
+          "text": "Реализовал blue-green deployment для критичных сервисов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002599",
+      "thread_sn": null,
+      "time": 1673453053,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002600",
+      "thread_sn": null,
+      "time": 1673459622,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще\n@h.kozlova",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002601",
+      "thread_sn": null,
+      "time": 1673463396,
+      "text": "Настроил автоскейлинг на основе custom metrics. HPA теперь реагирует на длину очереди\n@g.lebedev",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002602",
+      "thread_sn": null,
+      "time": 1673467587,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Grafana дашборд для нового сервиса готов: CPU, Memory, RPS, Error Rate, Latency percentiles"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002603",
+      "thread_sn": null,
+      "time": 1673472000,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1673397715,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002604",
+      "thread_sn": null,
+      "time": 1673478839,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002605",
+      "thread_sn": null,
+      "time": 1673484614,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002606",
+      "thread_sn": null,
+      "time": 1673490747,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002607",
+      "thread_sn": null,
+      "time": 1673497844,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK\n@h.kozlova",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002608",
+      "thread_sn": null,
+      "time": 1673502638,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1673457633,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002609",
+      "thread_sn": null,
+      "time": 1673506047,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002610",
+      "thread_sn": null,
+      "time": 1673509102,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002611",
+      "thread_sn": null,
+      "time": 1673510626,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002612",
+      "thread_sn": null,
+      "time": 1673516713,
+      "text": "Grafana дашборд для нового сервиса готов: CPU, Memory, RPS, Error Rate, Latency percentiles",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002613",
+      "thread_sn": null,
+      "time": 1673517594,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002614",
+      "thread_sn": null,
+      "time": 1673518970,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "d.kuznetsova@corp.example",
+          "time": 1673496322,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002615",
+      "thread_sn": null,
+      "time": 1673522893,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "f.sokolova@corp.example",
+          "time": 1673508803,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002616",
+      "thread_sn": null,
+      "time": 1673527942,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002617",
+      "thread_sn": null,
+      "time": 1673532896,
+      "text": "Grafana дашборд для нового сервиса готов: CPU, Memory, RPS, Error Rate, Latency percentiles\n@d.kuznetsova",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002618",
+      "thread_sn": null,
+      "time": 1673539541,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1673468333,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000002619",
+      "thread_sn": null,
+      "time": 1673545322,
+      "text": "ArgoCD синхронизация сломалась после обновления Helm чарта. Откатил\n@c.sidorov",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002620",
+      "thread_sn": null,
+      "time": 1673547642,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002621",
+      "thread_sn": null,
+      "time": 1673548264,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002622",
+      "thread_sn": null,
+      "time": 1673550589,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana\n@c.sidorov",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002623",
+      "thread_sn": null,
+      "time": 1673551521,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002624",
+      "thread_sn": null,
+      "time": 1673555987,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002625",
+      "thread_sn": null,
+      "time": 1673562252,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002626",
+      "thread_sn": null,
+      "time": 1673564424,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002627",
+      "thread_sn": null,
+      "time": 1673567376,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще\n@h.kozlova",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002628",
+      "thread_sn": null,
+      "time": 1673570237,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002629",
+      "thread_sn": null,
+      "time": 1673576409,
+      "text": "Внимание: плановое обслуживание prod кластера в субботу 03:00-05:00 MSK",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002630",
+      "thread_sn": null,
+      "time": 1673578162,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002631",
+      "thread_sn": null,
+      "time": 1673578864,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Vault интегрирован со всеми сервисами. Секреты больше не хранятся в env vars"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002632",
+      "thread_sn": null,
+      "time": 1673582874,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002633",
+      "thread_sn": null,
+      "time": 1673584432,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana\n@g.lebedev",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002634",
+      "thread_sn": null,
+      "time": 1673588410,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002635",
+      "thread_sn": null,
+      "time": 1673591695,
+      "text": "Реализовал blue-green deployment для критичных сервисов",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002636",
+      "thread_sn": null,
+      "time": 1673591823,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002637",
+      "thread_sn": null,
+      "time": 1673596376,
+      "text": "Prometheus показывает рост latency на API Gateway. Проверяю, в чём дело\n@o.nikolaev",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002638",
+      "thread_sn": null,
+      "time": 1673602176,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002639",
+      "thread_sn": null,
+      "time": 1673607855,
+      "text": "Обнаружена уязвимость CVE-2024-XXXX в базовом образе. Нужно срочно обновить все сервисы",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002640",
+      "thread_sn": null,
+      "time": 1673609109,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002641",
+      "thread_sn": null,
+      "time": 1673616127,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002642",
+      "thread_sn": null,
+      "time": 1673616577,
+      "text": "Мигрировали с Jenkins на GitHub Actions. Конфигурация стала в 3 раза проще",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002643",
+      "thread_sn": null,
+      "time": 1673620322,
+      "text": "Мониторинг алертов настроен в PagerDuty. On-call расписание обновлено",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002644",
+      "thread_sn": null,
+      "time": 1673623755,
+      "text": "Настроил centralized logging через ELK stack. Все логи доступны в Kibana",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002645",
+      "thread_sn": null,
+      "time": 1673625244,
+      "text": "Docker images оптимизированы. Средний размер уменьшился с 800MB до 150MB",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002646",
+      "thread_sn": null,
+      "time": 1673628425,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "o.nikolaev@corp.example",
+          "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "o.nikolaev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002647",
+      "thread_sn": null,
+      "time": 1673633656,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000002648",
+      "thread_sn": null,
+      "time": 1673636284,
+      "text": "Terraform state переехал в S3 backend с DynamoDB lock. Больше не будет конфликтов",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000002649",
+      "thread_sn": null,
+      "time": 1673643412,
+      "text": "CI/CD pipeline ускорен на 40% за счёт параллельных стейджей и кеширования Docker layers\n@i.novikov",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    }
+  ]
+}

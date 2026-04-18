@@ -1,0 +1,4426 @@
+{
+  "chat": {
+    "id": "80861@chat.example",
+    "name": "HR Новости",
+    "sn": "80861@chat.example",
+    "type": "channel",
+    "is_public": true,
+    "members_count": 500,
+    "members": null
+  },
+  "messages": [
+    {
+      "id": "1000005830",
+      "thread_sn": null,
+      "time": 1672537220,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "k.volkov@corp.example",
+          "time": 1672533507,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005831",
+      "thread_sn": null,
+      "time": 1672537589,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005832",
+      "thread_sn": null,
+      "time": 1672543964,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005833",
+      "thread_sn": null,
+      "time": 1672549670,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005834",
+      "thread_sn": null,
+      "time": 1672554909,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005835",
+      "thread_sn": null,
+      "time": 1672557344,
+      "text": "Запускаем программу менторства. Менторы и менти — регистрация до конца недели",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005836",
+      "thread_sn": null,
+      "time": 1672558278,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005837",
+      "thread_sn": null,
+      "time": 1672559919,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005838",
+      "thread_sn": null,
+      "time": 1672564072,
+      "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к\n@d.kuznetsova",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005839",
+      "thread_sn": null,
+      "time": 1672570038,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005840",
+      "thread_sn": null,
+      "time": 1672574493,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "n.mikhailova@corp.example",
+          "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005841",
+      "thread_sn": null,
+      "time": 1672574709,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате\n@n.mikhailova",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005842",
+      "thread_sn": null,
+      "time": 1672577286,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы\n@g.lebedev",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005843",
+      "thread_sn": null,
+      "time": 1672579152,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005844",
+      "thread_sn": null,
+      "time": 1672583930,
+      "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005845",
+      "thread_sn": null,
+      "time": 1672584979,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!\n@b.petrov",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005846",
+      "thread_sn": null,
+      "time": 1672585372,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате\n@a.ivanov",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005847",
+      "thread_sn": null,
+      "time": 1672585491,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005848",
+      "thread_sn": null,
+      "time": 1672591879,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005849",
+      "thread_sn": null,
+      "time": 1672593368,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005850",
+      "thread_sn": null,
+      "time": 1672599838,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "b.petrov@corp.example",
+          "time": 1672580837,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005851",
+      "thread_sn": null,
+      "time": 1672604241,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005852",
+      "thread_sn": null,
+      "time": 1672609702,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005853",
+      "thread_sn": null,
+      "time": 1672610115,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005854",
+      "thread_sn": null,
+      "time": 1672613887,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "k.volkov@corp.example",
+          "time": 1672589572,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005855",
+      "thread_sn": null,
+      "time": 1672620381,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005856",
+      "thread_sn": null,
+      "time": 1672622069,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "b.petrov@corp.example",
+          "text": "Запускаем программу менторства. Менторы и менти — регистрация до конца недели"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005857",
+      "thread_sn": null,
+      "time": 1672628172,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005858",
+      "thread_sn": null,
+      "time": 1672631802,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс\n@b.petrov",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005859",
+      "thread_sn": null,
+      "time": 1672634071,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "d.kuznetsova@corp.example",
+          "time": 1672593692,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005860",
+      "thread_sn": null,
+      "time": 1672635249,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005861",
+      "thread_sn": null,
+      "time": 1672636593,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005862",
+      "thread_sn": null,
+      "time": 1672643673,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005863",
+      "thread_sn": null,
+      "time": 1672649763,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005864",
+      "thread_sn": null,
+      "time": 1672649864,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "m.fedorov@corp.example",
+          "time": 1672641858,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005865",
+      "thread_sn": null,
+      "time": 1672653411,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005866",
+      "thread_sn": null,
+      "time": 1672658046,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005867",
+      "thread_sn": null,
+      "time": 1672658849,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005868",
+      "thread_sn": null,
+      "time": 1672662635,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005869",
+      "thread_sn": null,
+      "time": 1672662706,
+      "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005870",
+      "thread_sn": null,
+      "time": 1672668484,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005871",
+      "thread_sn": null,
+      "time": 1672668993,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005872",
+      "thread_sn": null,
+      "time": 1672669387,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005873",
+      "thread_sn": null,
+      "time": 1672672190,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005874",
+      "thread_sn": null,
+      "time": 1672678419,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005875",
+      "thread_sn": null,
+      "time": 1672681307,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "a.ivanov@corp.example",
+          "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005876",
+      "thread_sn": null,
+      "time": 1672686453,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы\n@a.ivanov",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005877",
+      "thread_sn": null,
+      "time": 1672689713,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Новый ДМС провайдер с 1 июля. Стоматология включена"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005878",
+      "thread_sn": null,
+      "time": 1672693838,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005879",
+      "thread_sn": null,
+      "time": 1672694979,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена\n@d.kuznetsova",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005880",
+      "thread_sn": null,
+      "time": 1672696942,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005881",
+      "thread_sn": null,
+      "time": 1672701345,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Новый ДМС провайдер с 1 июля. Стоматология включена"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005882",
+      "thread_sn": null,
+      "time": 1672703262,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005883",
+      "thread_sn": null,
+      "time": 1672704684,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005884",
+      "thread_sn": null,
+      "time": 1672710202,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к\n@h.kozlova",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005885",
+      "thread_sn": null,
+      "time": 1672711942,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005886",
+      "thread_sn": null,
+      "time": 1672713333,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005887",
+      "thread_sn": null,
+      "time": 1672716016,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005888",
+      "thread_sn": null,
+      "time": 1672720550,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005889",
+      "thread_sn": null,
+      "time": 1672725309,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005890",
+      "thread_sn": null,
+      "time": 1672729292,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005891",
+      "thread_sn": null,
+      "time": 1672732279,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005892",
+      "thread_sn": null,
+      "time": 1672734615,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005893",
+      "thread_sn": null,
+      "time": 1672741633,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов\n@e.popov",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005894",
+      "thread_sn": null,
+      "time": 1672745883,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005895",
+      "thread_sn": null,
+      "time": 1672748997,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!\n@a.ivanov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005896",
+      "thread_sn": null,
+      "time": 1672752461,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005897",
+      "thread_sn": null,
+      "time": 1672759365,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005898",
+      "thread_sn": null,
+      "time": 1672764263,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов\n@a.ivanov",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005899",
+      "thread_sn": null,
+      "time": 1672770509,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца\n@h.kozlova",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005900",
+      "thread_sn": null,
+      "time": 1672773058,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005901",
+      "thread_sn": null,
+      "time": 1672775576,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005902",
+      "thread_sn": null,
+      "time": 1672781270,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005903",
+      "thread_sn": null,
+      "time": 1672785266,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005904",
+      "thread_sn": null,
+      "time": 1672785469,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1672764110,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005905",
+      "thread_sn": null,
+      "time": 1672788456,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс\n@h.kozlova",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005906",
+      "thread_sn": null,
+      "time": 1672789145,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005907",
+      "thread_sn": null,
+      "time": 1672791795,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс\n@g.lebedev",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005908",
+      "thread_sn": null,
+      "time": 1672793032,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005909",
+      "thread_sn": null,
+      "time": 1672793931,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005910",
+      "thread_sn": null,
+      "time": 1672798297,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005911",
+      "thread_sn": null,
+      "time": 1672805064,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс\n@a.ivanov",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005912",
+      "thread_sn": null,
+      "time": 1672810019,
+      "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005913",
+      "thread_sn": null,
+      "time": 1672811133,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005914",
+      "thread_sn": null,
+      "time": 1672812108,
+      "text": "",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005915",
+      "thread_sn": null,
+      "time": 1672818372,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005916",
+      "thread_sn": null,
+      "time": 1672818700,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1672809428,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005917",
+      "thread_sn": null,
+      "time": 1672819302,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005918",
+      "thread_sn": null,
+      "time": 1672820875,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1672771684,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005919",
+      "thread_sn": null,
+      "time": 1672823820,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005920",
+      "thread_sn": null,
+      "time": 1672828616,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005921",
+      "thread_sn": null,
+      "time": 1672834618,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005922",
+      "thread_sn": null,
+      "time": 1672838279,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005923",
+      "thread_sn": null,
+      "time": 1672841677,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!\n@e.popov",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005924",
+      "thread_sn": null,
+      "time": 1672846301,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005925",
+      "thread_sn": null,
+      "time": 1672853251,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов\n@j.morozov",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "j.morozov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005926",
+      "thread_sn": null,
+      "time": 1672859884,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Обучение по Kubernetes — запись на курс до конца месяца"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005927",
+      "thread_sn": null,
+      "time": 1672863532,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "l.alekseeva@corp.example",
+          "time": 1672807422,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005928",
+      "thread_sn": null,
+      "time": 1672869285,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате\n@b.petrov",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005929",
+      "thread_sn": null,
+      "time": 1672874218,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005930",
+      "thread_sn": null,
+      "time": 1672879141,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005931",
+      "thread_sn": null,
+      "time": 1672882514,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005932",
+      "thread_sn": null,
+      "time": 1672887721,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005933",
+      "thread_sn": null,
+      "time": 1672888213,
+      "text": "",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "l.alekseeva@corp.example",
+          "time": 1672805369,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005934",
+      "thread_sn": null,
+      "time": 1672893837,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "a.ivanov@corp.example",
+          "text": "Напоминаю: дедлайн по заполнению OKR до пятницы"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005935",
+      "thread_sn": null,
+      "time": 1672895551,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005936",
+      "thread_sn": null,
+      "time": 1672895755,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Обучение по Kubernetes — запись на курс до конца месяца"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005937",
+      "thread_sn": null,
+      "time": 1672899440,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005938",
+      "thread_sn": null,
+      "time": 1672904060,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005939",
+      "thread_sn": null,
+      "time": 1672907307,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005940",
+      "thread_sn": null,
+      "time": 1672911265,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005941",
+      "thread_sn": null,
+      "time": 1672916866,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005942",
+      "thread_sn": null,
+      "time": 1672923782,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "j.morozov@corp.example",
+          "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "j.morozov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005943",
+      "thread_sn": null,
+      "time": 1672927349,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "b.petrov@corp.example",
+          "text": "Запускаем программу менторства. Менторы и менти — регистрация до конца недели"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005944",
+      "thread_sn": null,
+      "time": 1672932718,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "e.popov@corp.example",
+          "text": "Новый ДМС провайдер с 1 июля. Стоматология включена"
+        },
+        {
+          "mediaType": "text",
+          "text": "Не уверен что это правильный подход. Предлагаю альтернативу"
+        }
+      ],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005945",
+      "thread_sn": null,
+      "time": 1672934168,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "g.lebedev@corp.example",
+          "time": 1672863098,
+          "text": "Обновлённый регламент code review. Все MR должны иметь минимум 2 апрува"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005946",
+      "thread_sn": null,
+      "time": 1672937678,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005947",
+      "thread_sn": null,
+      "time": 1672942554,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к\n@a.ivanov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005948",
+      "thread_sn": null,
+      "time": 1672948144,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс\n@h.kozlova",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005949",
+      "thread_sn": null,
+      "time": 1672951775,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005950",
+      "thread_sn": null,
+      "time": 1672954270,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005951",
+      "thread_sn": null,
+      "time": 1672959178,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005952",
+      "thread_sn": null,
+      "time": 1672964575,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005953",
+      "thread_sn": null,
+      "time": 1672969754,
+      "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005954",
+      "thread_sn": null,
+      "time": 1672971342,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005955",
+      "thread_sn": null,
+      "time": 1672978028,
+      "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005956",
+      "thread_sn": null,
+      "time": 1672979298,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005957",
+      "thread_sn": null,
+      "time": 1672979885,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005958",
+      "thread_sn": null,
+      "time": 1672983269,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005959",
+      "thread_sn": null,
+      "time": 1672986901,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1672965419,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005960",
+      "thread_sn": null,
+      "time": 1672987199,
+      "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005961",
+      "thread_sn": null,
+      "time": 1672987422,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1672975489,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005962",
+      "thread_sn": null,
+      "time": 1672990816,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005963",
+      "thread_sn": null,
+      "time": 1672994974,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005964",
+      "thread_sn": null,
+      "time": 1672996984,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005965",
+      "thread_sn": null,
+      "time": 1673003138,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "a.ivanov@corp.example",
+          "text": "Запускаем программу менторства. Менторы и менти — регистрация до конца недели"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005966",
+      "thread_sn": null,
+      "time": 1673006543,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1672988137,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005967",
+      "thread_sn": null,
+      "time": 1673009195,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005968",
+      "thread_sn": null,
+      "time": 1673015983,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005969",
+      "thread_sn": null,
+      "time": 1673016328,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1672940281,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005970",
+      "thread_sn": null,
+      "time": 1673019539,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005971",
+      "thread_sn": null,
+      "time": 1673023223,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005972",
+      "thread_sn": null,
+      "time": 1673025376,
+      "text": "Запускаем программу менторства. Менторы и менти — регистрация до конца недели",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005973",
+      "thread_sn": null,
+      "time": 1673029031,
+      "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005974",
+      "thread_sn": null,
+      "time": 1673035476,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005975",
+      "thread_sn": null,
+      "time": 1673042289,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005976",
+      "thread_sn": null,
+      "time": 1673045025,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005977",
+      "thread_sn": null,
+      "time": 1673046199,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы\n@b.petrov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005978",
+      "thread_sn": null,
+      "time": 1673052547,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005979",
+      "thread_sn": null,
+      "time": 1673053700,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена\n@l.alekseeva",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005980",
+      "thread_sn": null,
+      "time": 1673056983,
+      "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005981",
+      "thread_sn": null,
+      "time": 1673062176,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате\n@g.lebedev",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005982",
+      "thread_sn": null,
+      "time": 1673064367,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы\n@m.fedorov",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005983",
+      "thread_sn": null,
+      "time": 1673068143,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005984",
+      "thread_sn": null,
+      "time": 1673069269,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005985",
+      "thread_sn": null,
+      "time": 1673070806,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "b.petrov@corp.example",
+          "time": 1672986246,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000005986",
+      "thread_sn": null,
+      "time": 1673074560,
+      "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005987",
+      "thread_sn": null,
+      "time": 1673080297,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005988",
+      "thread_sn": null,
+      "time": 1673080838,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005989",
+      "thread_sn": null,
+      "time": 1673085798,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005990",
+      "thread_sn": null,
+      "time": 1673090934,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!\n@k.volkov",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005991",
+      "thread_sn": null,
+      "time": 1673095120,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005992",
+      "thread_sn": null,
+      "time": 1673097313,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005993",
+      "thread_sn": null,
+      "time": 1673099690,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005994",
+      "thread_sn": null,
+      "time": 1673105786,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца\n@k.volkov",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005995",
+      "thread_sn": null,
+      "time": 1673107346,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005996",
+      "thread_sn": null,
+      "time": 1673107740,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца\n@k.volkov",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005997",
+      "thread_sn": null,
+      "time": 1673108566,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000005998",
+      "thread_sn": null,
+      "time": 1673114058,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000005999",
+      "thread_sn": null,
+      "time": 1673114747,
+      "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006000",
+      "thread_sn": null,
+      "time": 1673115806,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000006001",
+      "thread_sn": null,
+      "time": 1673116530,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006002",
+      "thread_sn": null,
+      "time": 1673116949,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к\n@d.kuznetsova",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006003",
+      "thread_sn": null,
+      "time": 1673119326,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006004",
+      "thread_sn": null,
+      "time": 1673120844,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Запускаем программу менторства. Менторы и менти — регистрация до конца недели"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000006005",
+      "thread_sn": null,
+      "time": 1673127289,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006006",
+      "thread_sn": null,
+      "time": 1673133377,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006007",
+      "thread_sn": null,
+      "time": 1673137447,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов\n@l.alekseeva",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006008",
+      "thread_sn": null,
+      "time": 1673142535,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "n.mikhailova@corp.example",
+          "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000006009",
+      "thread_sn": null,
+      "time": 1673144431,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!\n@a.ivanov",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006010",
+      "thread_sn": null,
+      "time": 1673151057,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006011",
+      "thread_sn": null,
+      "time": 1673153537,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006012",
+      "thread_sn": null,
+      "time": 1673153966,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "e.popov@corp.example",
+          "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000006013",
+      "thread_sn": null,
+      "time": 1673156113,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "k.volkov@corp.example",
+          "text": "Обучение по Kubernetes — запись на курс до конца месяца"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000006014",
+      "thread_sn": null,
+      "time": 1673163078,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006015",
+      "thread_sn": null,
+      "time": 1673168908,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006016",
+      "thread_sn": null,
+      "time": 1673176106,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1673158570,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000006017",
+      "thread_sn": null,
+      "time": 1673179719,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006018",
+      "thread_sn": null,
+      "time": 1673180734,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006019",
+      "thread_sn": null,
+      "time": 1673187455,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006020",
+      "thread_sn": null,
+      "time": 1673188621,
+      "text": "Запускаем программу менторства. Менторы и менти — регистрация до конца недели",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006021",
+      "thread_sn": null,
+      "time": 1673193994,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!\n@h.kozlova",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006022",
+      "thread_sn": null,
+      "time": 1673195267,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006023",
+      "thread_sn": null,
+      "time": 1673202370,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов\n@d.kuznetsova",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006024",
+      "thread_sn": null,
+      "time": 1673209373,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006025",
+      "thread_sn": null,
+      "time": 1673209736,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006026",
+      "thread_sn": null,
+      "time": 1673209951,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006027",
+      "thread_sn": null,
+      "time": 1673215112,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "a.ivanov@corp.example",
+          "text": "Новый ДМС провайдер с 1 июля. Стоматология включена"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000006028",
+      "thread_sn": null,
+      "time": 1673217988,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006029",
+      "thread_sn": null,
+      "time": 1673223906,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006030",
+      "thread_sn": null,
+      "time": 1673229480,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006031",
+      "thread_sn": null,
+      "time": 1673235677,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006032",
+      "thread_sn": null,
+      "time": 1673239781,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006033",
+      "thread_sn": null,
+      "time": 1673241140,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Напоминаю: дедлайн по заполнению OKR до пятницы"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000006034",
+      "thread_sn": null,
+      "time": 1673242133,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006035",
+      "thread_sn": null,
+      "time": 1673248501,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006036",
+      "thread_sn": null,
+      "time": 1673248974,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006037",
+      "thread_sn": null,
+      "time": 1673256065,
+      "text": "",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "k.volkov@corp.example",
+          "time": 1673169900,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000006038",
+      "thread_sn": null,
+      "time": 1673257092,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006039",
+      "thread_sn": null,
+      "time": 1673264283,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006040",
+      "thread_sn": null,
+      "time": 1673267748,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!\n@h.kozlova",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006041",
+      "thread_sn": null,
+      "time": 1673273991,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006042",
+      "thread_sn": null,
+      "time": 1673280619,
+      "text": "Поздравляем Алексея Иванова с 5-летним юбилеем в компании!",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006043",
+      "thread_sn": null,
+      "time": 1673280922,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "j.morozov@corp.example",
+          "time": 1673266210,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000006044",
+      "thread_sn": null,
+      "time": 1673283753,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006045",
+      "thread_sn": null,
+      "time": 1673289067,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1673230508,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000006046",
+      "thread_sn": null,
+      "time": 1673292420,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006047",
+      "thread_sn": null,
+      "time": 1673294771,
+      "text": "Запускаем программу менторства. Менторы и менти — регистрация до конца недели",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006048",
+      "thread_sn": null,
+      "time": 1673299895,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006049",
+      "thread_sn": null,
+      "time": 1673300645,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006050",
+      "thread_sn": null,
+      "time": 1673302455,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате\n@m.fedorov",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006051",
+      "thread_sn": null,
+      "time": 1673304492,
+      "text": "",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Открыта вакансия Senior Go Developer. Зарплатная вилка 300-450к. Реферальный бонус 100к"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000006052",
+      "thread_sn": null,
+      "time": 1673309688,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "a.ivanov@corp.example",
+          "time": 1673267034,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000006053",
+      "thread_sn": null,
+      "time": 1673314437,
+      "text": "Хакатон VK IT Academy — набираем участников. Призовой фонд 500к",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006054",
+      "thread_sn": null,
+      "time": 1673319639,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006055",
+      "thread_sn": null,
+      "time": 1673324391,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006056",
+      "thread_sn": null,
+      "time": 1673331191,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов\n@d.kuznetsova",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006057",
+      "thread_sn": null,
+      "time": 1673332316,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "l.alekseeva@corp.example",
+          "time": 1673251615,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000006058",
+      "thread_sn": null,
+      "time": 1673336955,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006059",
+      "thread_sn": null,
+      "time": 1673341025,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "m.fedorov@corp.example",
+          "text": "Обучение по Kubernetes — запись на курс до конца месяца"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000006060",
+      "thread_sn": null,
+      "time": 1673348156,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006061",
+      "thread_sn": null,
+      "time": 1673349188,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена\n@k.volkov",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006062",
+      "thread_sn": null,
+      "time": 1673351745,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006063",
+      "thread_sn": null,
+      "time": 1673354304,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006064",
+      "thread_sn": null,
+      "time": 1673354730,
+      "text": "Результаты опроса удовлетворённости: 4.2/5.0. Основная жалоба — шумный опенспейс",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006065",
+      "thread_sn": null,
+      "time": 1673360688,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006066",
+      "thread_sn": null,
+      "time": 1673366710,
+      "text": "Команде Backend нужен тимлид. Рассматриваем внутренних кандидатов",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006067",
+      "thread_sn": null,
+      "time": 1673371201,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006068",
+      "thread_sn": null,
+      "time": 1673375946,
+      "text": "Напоминаю: дедлайн по заполнению OKR до пятницы",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006069",
+      "thread_sn": null,
+      "time": 1673381074,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "m.fedorov@corp.example",
+          "time": 1673352650,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000006070",
+      "thread_sn": null,
+      "time": 1673387282,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "k.volkov@corp.example",
+          "time": 1673381196,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000006071",
+      "thread_sn": null,
+      "time": 1673389594,
+      "text": "Обучение по Kubernetes — запись на курс до конца месяца\n@m.fedorov",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006072",
+      "thread_sn": null,
+      "time": 1673392945,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006073",
+      "thread_sn": null,
+      "time": 1673395789,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "e.popov@corp.example",
+          "time": 1673342119,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000006074",
+      "thread_sn": null,
+      "time": 1673397955,
+      "text": "",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1673375477,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000006075",
+      "thread_sn": null,
+      "time": 1673399511,
+      "text": "Корпоратив в честь дня рождения компании — 25 мая в офисе на Арбате\n@e.popov",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000006076",
+      "thread_sn": null,
+      "time": 1673405414,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "l.alekseeva@corp.example",
+          "time": 1673359319,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000006077",
+      "thread_sn": null,
+      "time": 1673407586,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "a.ivanov@corp.example",
+          "text": "Запускаем программу менторства. Менторы и менти — регистрация до конца недели"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "a.ivanov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000006078",
+      "thread_sn": null,
+      "time": 1673411812,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "j.morozov@corp.example",
+          "text": "Обучение по Kubernetes — запись на курс до конца месяца"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "j.morozov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000006079",
+      "thread_sn": null,
+      "time": 1673415838,
+      "text": "Новый ДМС провайдер с 1 июля. Стоматология включена",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    }
+  ]
+}

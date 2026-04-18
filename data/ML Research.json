@@ -1,0 +1,1782 @@
+{
+  "chat": {
+    "id": "40753@chat.example",
+    "name": "ML Research",
+    "sn": "40753@chat.example",
+    "type": "group",
+    "is_public": false,
+    "members_count": 45,
+    "members": null
+  },
+  "messages": [
+    {
+      "id": "1000003650",
+      "thread_sn": null,
+      "time": 1672537575,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Проблема с data drift в продакшене. Модель деградирует через 2 недели"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003651",
+      "thread_sn": null,
+      "time": 1672542999,
+      "text": "Реализовал RAG pipeline для внутренней базы знаний. Качество ответов значительно улучшилось",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003652",
+      "thread_sn": null,
+      "time": 1672547374,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "o.nikolaev@corp.example",
+          "time": 1672501150,
+          "text": "Результаты квартального ревью. Бонусы выплачиваются в следующую зарплату"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000003653",
+      "thread_sn": null,
+      "time": 1672554513,
+      "text": "Встроили модель в API. Latency inference — 50ms на CPU, 5ms на GPU",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003654",
+      "thread_sn": null,
+      "time": 1672560287,
+      "text": "Написал пайплайн автоматического переобучения по расписанию через Airflow",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003655",
+      "thread_sn": null,
+      "time": 1672565588,
+      "text": "GPU кластер обновлён. Теперь доступны A100 80GB. Время обучения сократилось в 3 раза",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003656",
+      "thread_sn": null,
+      "time": 1672568644,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Векторная БД Qdrant показала себя лучше Pinecone по latency и стоимости"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003657",
+      "thread_sn": null,
+      "time": 1672571053,
+      "text": "Нужен совет: ONNX Runtime vs TensorRT для инференса в продакшене?",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003658",
+      "thread_sn": null,
+      "time": 1672574639,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Вопрос: как правильно делать A/B тест для ML моделей в проде?"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003659",
+      "thread_sn": null,
+      "time": 1672579291,
+      "text": "MLflow эксперименты показывают что XGBoost всё ещё лучше нейросетей на табличных данных",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003660",
+      "thread_sn": null,
+      "time": 1672579999,
+      "text": "Проблема с data drift в продакшене. Модель деградирует через 2 недели",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003661",
+      "thread_sn": null,
+      "time": 1672582391,
+      "text": "Векторная БД Qdrant показала себя лучше Pinecone по latency и стоимости\n@n.mikhailova",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003662",
+      "thread_sn": null,
+      "time": 1672587668,
+      "text": "GPU кластер обновлён. Теперь доступны A100 80GB. Время обучения сократилось в 3 раза",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003663",
+      "thread_sn": null,
+      "time": 1672592110,
+      "text": "Hugging Face Transformers обновили до 4.40. Есть поддержка Flash Attention 2",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003664",
+      "thread_sn": null,
+      "time": 1672592908,
+      "text": "",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003665",
+      "thread_sn": null,
+      "time": 1672595768,
+      "text": "Датасет для обучения расширен до 500к примеров. Нужна помощь с разметкой",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003666",
+      "thread_sn": null,
+      "time": 1672596485,
+      "text": "MLflow эксперименты показывают что XGBoost всё ещё лучше нейросетей на табличных данных\n@g.lebedev",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003667",
+      "thread_sn": null,
+      "time": 1672603438,
+      "text": "",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "c.sidorov@corp.example",
+          "text": "Нужен совет: ONNX Runtime vs TensorRT для инференса в продакшене?"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "c.sidorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003668",
+      "thread_sn": null,
+      "time": 1672609815,
+      "text": "Hugging Face Transformers обновили до 4.40. Есть поддержка Flash Attention 2",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003669",
+      "thread_sn": null,
+      "time": 1672611582,
+      "text": "Эксперимент с LoRA fine-tuning на Llama 3 показал хорошие результаты для нашего домена",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003670",
+      "thread_sn": null,
+      "time": 1672616144,
+      "text": "Вопрос: как правильно делать A/B тест для ML моделей в проде?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003671",
+      "thread_sn": null,
+      "time": 1672617988,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "h.kozlova@corp.example",
+          "text": "Нужен совет: ONNX Runtime vs TensorRT для инференса в продакшене?"
+        },
+        {
+          "mediaType": "text",
+          "text": "Хороший поинт. Создал тикет в Jira"
+        }
+      ],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003672",
+      "thread_sn": null,
+      "time": 1672619028,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "h.kozlova@corp.example",
+          "time": 1672553134,
+          "text": "Важное объявление от руководства: с нового года переходим на гибридный формат работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000003673",
+      "thread_sn": null,
+      "time": 1672624727,
+      "text": "Датасет для обучения расширен до 500к примеров. Нужна помощь с разметкой\n@h.kozlova",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "h.kozlova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003674",
+      "thread_sn": null,
+      "time": 1672631009,
+      "text": "Встроили модель в API. Latency inference — 50ms на CPU, 5ms на GPU",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003675",
+      "thread_sn": null,
+      "time": 1672632975,
+      "text": "Нужен совет: ONNX Runtime vs TensorRT для инференса в продакшене?",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003676",
+      "thread_sn": null,
+      "time": 1672633209,
+      "text": "Обучили новую модель для классификации тикетов. F1 score вырос с 0.82 до 0.91",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003677",
+      "thread_sn": null,
+      "time": 1672635683,
+      "text": "Вопрос: как правильно делать A/B тест для ML моделей в проде?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003678",
+      "thread_sn": null,
+      "time": 1672642850,
+      "text": "Встроили модель в API. Latency inference — 50ms на CPU, 5ms на GPU\n@b.petrov",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003679",
+      "thread_sn": null,
+      "time": 1672647346,
+      "text": "Hugging Face Transformers обновили до 4.40. Есть поддержка Flash Attention 2\n@e.popov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "e.popov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003680",
+      "thread_sn": null,
+      "time": 1672650388,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "m.fedorov@corp.example",
+          "text": "Встроили модель в API. Latency inference — 50ms на CPU, 5ms на GPU"
+        },
+        {
+          "mediaType": "text",
+          "text": "Отличная идея! Давайте включим в бэклог"
+        }
+      ],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003681",
+      "thread_sn": null,
+      "time": 1672654741,
+      "text": "Вопрос: как правильно делать A/B тест для ML моделей в проде?",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003682",
+      "thread_sn": null,
+      "time": 1672655589,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "n.mikhailova@corp.example",
+          "time": 1672647890,
+          "text": "Инструкция по настройке VPN для удалённой работы"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000003683",
+      "thread_sn": null,
+      "time": 1672657304,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "f.sokolova@corp.example",
+          "time": 1672602770,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000003684",
+      "thread_sn": null,
+      "time": 1672662753,
+      "text": "Вопрос: как правильно делать A/B тест для ML моделей в проде?",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003685",
+      "thread_sn": null,
+      "time": 1672662920,
+      "text": "Векторная БД Qdrant показала себя лучше Pinecone по latency и стоимости\n@i.novikov",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003686",
+      "thread_sn": null,
+      "time": 1672665936,
+      "text": "Нужен совет: ONNX Runtime vs TensorRT для инференса в продакшене?",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003687",
+      "thread_sn": null,
+      "time": 1672668173,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003688",
+      "thread_sn": null,
+      "time": 1672675068,
+      "text": "Нужна помощь с feature engineering для рекомендательной системы",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003689",
+      "thread_sn": null,
+      "time": 1672676680,
+      "text": "Эксперимент с LoRA fine-tuning на Llama 3 показал хорошие результаты для нашего домена",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003690",
+      "thread_sn": null,
+      "time": 1672682852,
+      "text": "Hugging Face Transformers обновили до 4.40. Есть поддержка Flash Attention 2",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003691",
+      "thread_sn": null,
+      "time": 1672684278,
+      "text": "Эксперимент с LoRA fine-tuning на Llama 3 показал хорошие результаты для нашего домена",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003692",
+      "thread_sn": null,
+      "time": 1672687224,
+      "text": "Вопрос: как правильно делать A/B тест для ML моделей в проде?",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003693",
+      "thread_sn": null,
+      "time": 1672694051,
+      "text": "MLflow эксперименты показывают что XGBoost всё ещё лучше нейросетей на табличных данных",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003694",
+      "thread_sn": null,
+      "time": 1672696192,
+      "text": "Hugging Face Transformers обновили до 4.40. Есть поддержка Flash Attention 2\n@b.petrov",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003695",
+      "thread_sn": null,
+      "time": 1672700492,
+      "text": "GPU кластер обновлён. Теперь доступны A100 80GB. Время обучения сократилось в 3 раза",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003696",
+      "thread_sn": null,
+      "time": 1672706872,
+      "text": "Встроили модель в API. Latency inference — 50ms на CPU, 5ms на GPU",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003697",
+      "thread_sn": null,
+      "time": 1672708199,
+      "text": "",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003698",
+      "thread_sn": null,
+      "time": 1672709537,
+      "text": "Реализовал RAG pipeline для внутренней базы знаний. Качество ответов значительно улучшилось",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003699",
+      "thread_sn": null,
+      "time": 1672712872,
+      "text": "Нужен совет: ONNX Runtime vs TensorRT для инференса в продакшене?",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003700",
+      "thread_sn": null,
+      "time": 1672718581,
+      "text": "Реализовал RAG pipeline для внутренней базы знаний. Качество ответов значительно улучшилось\n@i.novikov",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003701",
+      "thread_sn": null,
+      "time": 1672719283,
+      "text": "Векторная БД Qdrant показала себя лучше Pinecone по latency и стоимости",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003702",
+      "thread_sn": null,
+      "time": 1672720330,
+      "text": "Провели evaluation нашего чатбота. BLEU score 0.45, ROUGE-L 0.62\n@i.novikov",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003703",
+      "thread_sn": null,
+      "time": 1672720833,
+      "text": "Вопрос: как правильно делать A/B тест для ML моделей в проде?",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003704",
+      "thread_sn": null,
+      "time": 1672721306,
+      "text": "Проблема с data drift в продакшене. Модель деградирует через 2 недели",
+      "sender_id": "f.sokolova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003705",
+      "thread_sn": null,
+      "time": 1672724904,
+      "text": "Датасет для обучения расширен до 500к примеров. Нужна помощь с разметкой",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003706",
+      "thread_sn": null,
+      "time": 1672728234,
+      "text": "Эксперимент с LoRA fine-tuning на Llama 3 показал хорошие результаты для нашего домена",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003707",
+      "thread_sn": null,
+      "time": 1672729916,
+      "text": "Hugging Face Transformers обновили до 4.40. Есть поддержка Flash Attention 2",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003708",
+      "thread_sn": null,
+      "time": 1672732157,
+      "text": "Нужна помощь с feature engineering для рекомендательной системы",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003709",
+      "thread_sn": null,
+      "time": 1672735070,
+      "text": "",
+      "sender_id": "m.fedorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Реализовал RAG pipeline для внутренней базы знаний. Качество ответов значительно улучшилось"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003710",
+      "thread_sn": null,
+      "time": 1672740178,
+      "text": "",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "m.fedorov@corp.example",
+          "text": "Обучили новую модель для классификации тикетов. F1 score вырос с 0.82 до 0.91"
+        },
+        {
+          "mediaType": "text",
+          "text": "Уже начал работу над этим. Будет готово к завтрашнему дню"
+        }
+      ],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003711",
+      "thread_sn": null,
+      "time": 1672745852,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "m.fedorov@corp.example",
+          "text": "Hugging Face Transformers обновили до 4.40. Есть поддержка Flash Attention 2"
+        },
+        {
+          "mediaType": "text",
+          "text": "Полностью согласен, давайте обсудим на стендапе"
+        }
+      ],
+      "mentions": [
+        "m.fedorov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003712",
+      "thread_sn": null,
+      "time": 1672750999,
+      "text": "Вопрос: как правильно делать A/B тест для ML моделей в проде?",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003713",
+      "thread_sn": null,
+      "time": 1672754745,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003714",
+      "thread_sn": null,
+      "time": 1672760867,
+      "text": "Встроили модель в API. Latency inference — 50ms на CPU, 5ms на GPU",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003715",
+      "thread_sn": null,
+      "time": 1672762084,
+      "text": "",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "forward",
+          "sn": "k.volkov@corp.example",
+          "time": 1672689436,
+          "text": "Расписание митингов на следующую неделю"
+        }
+      ],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": true,
+      "is_quote": false
+    },
+    {
+      "id": "1000003716",
+      "thread_sn": null,
+      "time": 1672762500,
+      "text": "Проблема с data drift в продакшене. Модель деградирует через 2 недели",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003717",
+      "thread_sn": null,
+      "time": 1672762628,
+      "text": "Написал пайплайн автоматического переобучения по расписанию через Airflow",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003718",
+      "thread_sn": null,
+      "time": 1672765084,
+      "text": "Встроили модель в API. Latency inference — 50ms на CPU, 5ms на GPU",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003719",
+      "thread_sn": null,
+      "time": 1672767728,
+      "text": "Встроили модель в API. Latency inference — 50ms на CPU, 5ms на GPU",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003720",
+      "thread_sn": null,
+      "time": 1672773624,
+      "text": "",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "changeName",
+        "members": []
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003721",
+      "thread_sn": null,
+      "time": 1672776181,
+      "text": "",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Написал пайплайн автоматического переобучения по расписанию через Airflow"
+        },
+        {
+          "mediaType": "text",
+          "text": "Можно подробнее? Не совсем понял контекст"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003722",
+      "thread_sn": null,
+      "time": 1672781362,
+      "text": "Нужен совет: ONNX Runtime vs TensorRT для инференса в продакшене?\n@b.petrov",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "b.petrov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003723",
+      "thread_sn": null,
+      "time": 1672788097,
+      "text": "Вопрос: как правильно делать A/B тест для ML моделей в проде?",
+      "sender_id": "e.popov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003724",
+      "thread_sn": null,
+      "time": 1672788876,
+      "text": "Написал пайплайн автоматического переобучения по расписанию через Airflow",
+      "sender_id": "j.morozov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003725",
+      "thread_sn": null,
+      "time": 1672793629,
+      "text": "Датасет для обучения расширен до 500к примеров. Нужна помощь с разметкой",
+      "sender_id": "n.mikhailova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003726",
+      "thread_sn": null,
+      "time": 1672794824,
+      "text": "Реализовал RAG pipeline для внутренней базы знаний. Качество ответов значительно улучшилось",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003727",
+      "thread_sn": null,
+      "time": 1672795991,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "d.kuznetsova@corp.example",
+          "text": "Провели evaluation нашего чатбота. BLEU score 0.45, ROUGE-L 0.62"
+        },
+        {
+          "mediaType": "text",
+          "text": "Спасибо за информацию! Передам команде"
+        }
+      ],
+      "mentions": [
+        "d.kuznetsova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003728",
+      "thread_sn": null,
+      "time": 1672796606,
+      "text": "Векторная БД Qdrant показала себя лучше Pinecone по latency и стоимости",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003729",
+      "thread_sn": null,
+      "time": 1672802936,
+      "text": "Датасет для обучения расширен до 500к примеров. Нужна помощь с разметкой",
+      "sender_id": "d.kuznetsova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003730",
+      "thread_sn": null,
+      "time": 1672808213,
+      "text": "Эксперимент с LoRA fine-tuning на Llama 3 показал хорошие результаты для нашего домена\n@i.novikov",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "i.novikov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003731",
+      "thread_sn": null,
+      "time": 1672813327,
+      "text": "GPU кластер обновлён. Теперь доступны A100 80GB. Время обучения сократилось в 3 раза",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003732",
+      "thread_sn": null,
+      "time": 1672819024,
+      "text": "Hugging Face Transformers обновили до 4.40. Есть поддержка Flash Attention 2",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003733",
+      "thread_sn": null,
+      "time": 1672822258,
+      "text": "MLflow эксперименты показывают что XGBoost всё ещё лучше нейросетей на табличных данных",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": true,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003734",
+      "thread_sn": null,
+      "time": 1672824528,
+      "text": "GPU кластер обновлён. Теперь доступны A100 80GB. Время обучения сократилось в 3 раза\n@k.volkov",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "k.volkov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003735",
+      "thread_sn": null,
+      "time": 1672828186,
+      "text": "Провели evaluation нашего чатбота. BLEU score 0.45, ROUGE-L 0.62",
+      "sender_id": "o.nikolaev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003736",
+      "thread_sn": null,
+      "time": 1672828588,
+      "text": "Проблема с data drift в продакшене. Модель деградирует через 2 недели",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003737",
+      "thread_sn": null,
+      "time": 1672833040,
+      "text": "",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "g.lebedev@corp.example",
+          "text": "Нужна помощь с feature engineering для рекомендательной системы"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "g.lebedev@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003738",
+      "thread_sn": null,
+      "time": 1672839874,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003739",
+      "thread_sn": null,
+      "time": 1672844183,
+      "text": "Встроили модель в API. Latency inference — 50ms на CPU, 5ms на GPU",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003740",
+      "thread_sn": null,
+      "time": 1672845798,
+      "text": "Реализовал RAG pipeline для внутренней базы знаний. Качество ответов значительно улучшилось",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003741",
+      "thread_sn": null,
+      "time": 1672850880,
+      "text": "",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "l.alekseeva@corp.example",
+          "text": "Векторная БД Qdrant показала себя лучше Pinecone по latency и стоимости"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "l.alekseeva@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003742",
+      "thread_sn": null,
+      "time": 1672856859,
+      "text": "Hugging Face Transformers обновили до 4.40. Есть поддержка Flash Attention 2",
+      "sender_id": "a.ivanov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003743",
+      "thread_sn": null,
+      "time": 1672859568,
+      "text": "",
+      "sender_id": "g.lebedev@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "removeMember",
+        "members": [
+          "old.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003744",
+      "thread_sn": null,
+      "time": 1672864463,
+      "text": "Реализовал RAG pipeline для внутренней базы знаний. Качество ответов значительно улучшилось",
+      "sender_id": "k.volkov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003745",
+      "thread_sn": null,
+      "time": 1672870351,
+      "text": "",
+      "sender_id": "i.novikov@corp.example",
+      "file_snippets": "",
+      "parts": [
+        {
+          "mediaType": "quote",
+          "sn": "f.sokolova@corp.example",
+          "text": "Hugging Face Transformers обновили до 4.40. Есть поддержка Flash Attention 2"
+        },
+        {
+          "mediaType": "text",
+          "text": "У меня был похожий опыт, могу помочь"
+        }
+      ],
+      "mentions": [
+        "f.sokolova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": true
+    },
+    {
+      "id": "1000003746",
+      "thread_sn": null,
+      "time": 1672873384,
+      "text": "Встроили модель в API. Latency inference — 50ms на CPU, 5ms на GPU",
+      "sender_id": "l.alekseeva@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003747",
+      "thread_sn": null,
+      "time": 1672877952,
+      "text": "",
+      "sender_id": "c.sidorov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [],
+      "member_event": {
+        "type": "addMembers",
+        "members": [
+          "new.user@corp.example"
+        ]
+      },
+      "is_system": true,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003748",
+      "thread_sn": null,
+      "time": 1672880757,
+      "text": "Эксперимент с LoRA fine-tuning на Llama 3 показал хорошие результаты для нашего домена\n@j.morozov",
+      "sender_id": "h.kozlova@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "j.morozov@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    },
+    {
+      "id": "1000003749",
+      "thread_sn": null,
+      "time": 1672883340,
+      "text": "Эксперимент с LoRA fine-tuning на Llama 3 показал хорошие результаты для нашего домена\n@n.mikhailova",
+      "sender_id": "b.petrov@corp.example",
+      "file_snippets": "",
+      "parts": [],
+      "mentions": [
+        "n.mikhailova@corp.example"
+      ],
+      "member_event": null,
+      "is_system": false,
+      "is_hidden": false,
+      "is_forward": false,
+      "is_quote": false
+    }
+  ]
+}
