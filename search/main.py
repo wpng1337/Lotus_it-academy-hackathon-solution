@@ -312,32 +312,40 @@ async def get_rerank_scores(
     if not targets:
         return []
 
-    # Retry с backoff при 429
-    for attempt in range(3):
-        response = await client.post(
-            RERANKER_URL,
-            **get_upstream_request_kwargs(),
-            json={
-                "model": RERANKER_MODEL,
-                "encoding_format": "float",
-                "text_1": label,
-                "text_2": targets,
-            },
-        )
-        if response.status_code == 429:
-            wait = 2 ** attempt
-            logger.warning(f"Rerank 429, retry {attempt+1}/3 in {wait}s")
-            await asyncio.sleep(wait)
-            continue
-        response.raise_for_status()
-        break
-    else:
-        response.raise_for_status()  # последняя попытка — пусть упадёт
+    # Retry с backoff при 429 (5 попыток, до 16 секунд ожидания)
+    for attempt in range(5):
+        try:
+            response = await client.post(
+                RERANKER_URL,
+                **get_upstream_request_kwargs(),
+                json={
+                    "model": RERANKER_MODEL,
+                    "encoding_format": "float",
+                    "text_1": label,
+                    "text_2": targets,
+                },
+            )
+            if response.status_code == 429:
+                wait = 2 ** attempt
+                logger.warning(f"Rerank 429, retry {attempt+1}/5 in {wait}s")
+                await asyncio.sleep(wait)
+                continue
+            response.raise_for_status()
+            payload = response.json()
+            data = payload.get("data") or []
+            return [float(sample["score"]) for sample in data]
+        except Exception as e:
+            logger.warning(f"Rerank error attempt {attempt+1}/5: {e}")
+            if attempt < 4:
+                await asyncio.sleep(2 ** attempt)
+                continue
+            # Все попытки исчерпаны — возвращаем пустой список (fallback)
+            logger.error(f"Rerank failed after 5 attempts, using fallback")
+            return []
 
-    payload = response.json()
-    data = payload.get("data") or []
-
-    return [float(sample["score"]) for sample in data]
+    # Все retry исчерпаны на 429 — возвращаем пустой список
+    logger.error(f"Rerank 429 after 5 retries, using fallback")
+    return []
 
 
 async def rerank_points(
@@ -348,6 +356,11 @@ async def rerank_points(
     rerank_candidates = points[:RERANK_LIMIT]
     rerank_targets = [point.payload.get("page_content") for point in rerank_candidates]
     scores = await get_rerank_scores(client, query, rerank_targets)
+
+    # Если реранкер недоступен — возвращаем в оригинальном порядке (RRF)
+    if not scores:
+        logger.warning("Reranker unavailable, returning RRF order")
+        return rerank_candidates
 
     reranked_candidates = [
         point

@@ -1,0 +1,4 @@
+FROM solution-search:latest
+
+# Обновляем только main.py — модель уже есть в базовом образе
+COPY main.py /app/main.py
