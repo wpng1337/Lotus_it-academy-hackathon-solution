@@ -88,8 +88,8 @@ app = FastAPI(title="Index Service", version="0.1.0")
 # Ваша внутренняя логика построения чанков. Можете делать всё, что посчитаете нужным.
 # Текущий код – минимальный пример
 
-CHUNK_SIZE = 512
-OVERLAP_SIZE = 256
+CHUNK_SIZE = 256
+OVERLAP_SIZE = 128
 SPARSE_MODEL_NAME = "Qdrant/bm25"
 FASTEMBED_CACHE_PATH = "/models/fastembed"
 
@@ -105,20 +105,30 @@ def render_message(message: Message) -> str:
     if message.parts:
         parts_text: list[str] = []
         for part in message.parts:
-            # parts различаются по своему типу, см. README.md
+            media_type = part.get("mediaType", "text")
             part_text = part.get("text")
             if isinstance(part_text, str) and part_text:
-                parts_text.append(part_text)
+                if media_type == "forward":
+                    parts_text.append(f"[Пересланное]: {part_text}")
+                elif media_type == "quote":
+                    parts_text.append(f"[Цитата]: {part_text}")
+                else:
+                    parts_text.append(part_text)
         if parts_text:
             text += "\n".join(parts_text)
 
-    return text
+    return text.strip()
 
 
 def build_chunks(
+    chat: Chat,
     overlap_messages: list[Message],
     new_messages: list[Message],
 ) -> list[IndexAPIItem]:
+    # Фильтруем системные и скрытые сообщения
+    new_messages = [m for m in new_messages if not m.is_system and not m.is_hidden]
+    overlap_messages = [m for m in overlap_messages if not m.is_system and not m.is_hidden]
+
     result: list[IndexAPIItem] = []
 
     def build_text_and_ranges(messages: list[Message]) -> tuple[str, list[tuple[int, int, str]]]:
@@ -177,11 +187,16 @@ def build_chunks(
             chunk_text += "\n"
         chunk_text += chunk_body
 
+        # dense_content обогащаем названием чата для лучшей семантики
+        dense_text = f"[{chat.name}] {chunk_text}"
+        # sparse_content — только тело чанка без overlap для точного BM25
+        sparse_text = chunk_body
+
         result.append(
             IndexAPIItem(
                 page_content=chunk_text,
-                dense_content=chunk_text,
-                sparse_content=chunk_text,
+                dense_content=dense_text,
+                sparse_content=sparse_text,
                 message_ids=[message_id for _, _, message_id in chunk_body_ranges],
             )
         )
@@ -199,6 +214,7 @@ async def health() -> dict[str, str]:
 async def index(payload: IndexAPIRequest) -> IndexAPIResponse:
     return IndexAPIResponse(
         results=build_chunks(
+            payload.data.chat,
             payload.data.overlap_messages,
             payload.data.new_messages,
         )

@@ -171,10 +171,10 @@ app = FastAPI(title="Search Service", version="0.1.0", lifespan=lifespan)
 # Внутри шаблона dense и rerank берутся из внешних HTTP endpoint'ов,
 # которые предоставляет проверяющая система.
 # Текущий код ниже — минимальный пример search pipeline.
-DENSE_PREFETCH_K = 10
-SPRASE_PREFETCH_K = 30
-RETRIEVE_K = 20
-RERANK_LIMIT = 10
+DENSE_PREFETCH_K = 50
+SPARSE_PREFETCH_K = 150
+RETRIEVE_K = 100
+RERANK_LIMIT = 50
 
 async def embed_dense(client: httpx.AsyncClient, text: str) -> list[float]:
     # Dense endpoint ожидает OpenAI-compatible body с input как списком строк.
@@ -226,7 +226,7 @@ async def qdrant_search(
                     values=sparse_vector.values,
                 ),
                 using=QDRANT_SPARSE_VECTOR_NAME,
-                limit=SPRASE_PREFETCH_K,
+                limit=SPARSE_PREFETCH_K,
             ),
         ],
         query=models.FusionQuery(fusion=models.Fusion.RRF),
@@ -280,7 +280,7 @@ async def rerank_points(
     query: str,
     points: list[Any],
 ) -> list[Any]:
-    rerank_candidates = points[:10]
+    rerank_candidates = points[:RERANK_LIMIT]
     rerank_targets = [point.payload.get("page_content") for point in rerank_candidates]
     scores = await get_rerank_scores(client, query, rerank_targets)
 
@@ -320,9 +320,15 @@ async def search(payload: SearchAPIRequest) -> SearchAPIResponse:
 
     best_points = await rerank_points(client, query, list(best_points))
 
-    message_ids: list[str] = [] 
+    # Дедупликация message_ids с сохранением порядка релевантности
+    seen: set[str] = set()
+    message_ids: list[str] = []
     for point in best_points:
-        message_ids += extract_message_ids(point)
+        for mid in extract_message_ids(point):
+            if mid not in seen:
+                seen.add(mid)
+                message_ids.append(mid)
+    message_ids = message_ids[:50]  # K=50
 
     return SearchAPIResponse(
         results=[SearchAPIItem(message_ids=message_ids)]
