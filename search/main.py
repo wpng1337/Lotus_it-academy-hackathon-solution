@@ -175,7 +175,7 @@ app = FastAPI(title="Search Service", version="0.1.0", lifespan=lifespan)
 DENSE_PREFETCH_K = 50
 SPARSE_PREFETCH_K = 150
 RETRIEVE_K = 100
-RERANK_LIMIT = 15
+RERANK_LIMIT = 25
 
 async def embed_dense(client: httpx.AsyncClient, text: str) -> list[float]:
     # Dense endpoint ожидает OpenAI-compatible body с input как списком строк.
@@ -245,12 +245,16 @@ def build_dense_query(question: Question) -> str:
 
 def build_sparse_query(question: Question) -> str:
     """Формируем текст для sparse embedding — keyword matching.
-    Обогащаем ключевыми словами для лучшего BM25."""
-    parts = [question.text.strip()]
+    Комбинируем search_text + keywords для максимального recall BM25."""
+    parts = []
+    # search_text — обработанная версия запроса (если есть)
+    if question.search_text:
+        parts.append(question.search_text)
+    else:
+        parts.append(question.text.strip())
+    # Добавляем ключевые слова — они всегда полезны для BM25
     if question.keywords:
         parts.extend(question.keywords)
-    if question.search_text:
-        parts = [question.search_text]  # уже обработанный текст
     return " ".join(parts)
 
 
@@ -399,15 +403,26 @@ async def search(payload: SearchAPIRequest) -> SearchAPIResponse:
     sparse_task = asyncio.to_thread(lambda: embed_sparse_sync(sparse_query))
     dense_vector, sparse_vector = await asyncio.gather(dense_task, sparse_task)
 
-    # Собираем все dense векторы (основной + HyDE если есть)
+    # Собираем все dense векторы (основной + HyDE + variants)
     dense_vectors = [dense_vector]
+
+    # HyDE векторы (гипотетические документы)
     if question.hyde and len(question.hyde) > 0:
         try:
-            hyde_texts = question.hyde[:2]  # максимум 2 HyDE вектора
+            hyde_texts = question.hyde[:2]
             hyde_vectors = await embed_dense_batch(client, hyde_texts)
             dense_vectors.extend(hyde_vectors)
         except Exception as e:
             logger.warning(f"HyDE embedding failed: {e}")
+
+    # Variants — альтернативные формулировки запроса
+    if question.variants and len(question.variants) > 0:
+        try:
+            variant_texts = question.variants[:2]
+            variant_vectors = await embed_dense_batch(client, variant_texts)
+            dense_vectors.extend(variant_vectors)
+        except Exception as e:
+            logger.warning(f"Variants embedding failed: {e}")
 
     # Поиск в Qdrant
     all_points = await qdrant_search(qdrant, dense_vectors, sparse_vector)
