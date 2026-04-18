@@ -136,48 +136,61 @@ def build_chunks(
 
     result: list[IndexAPIItem] = []
 
-    # Рендерим все сообщения
-    rendered_new = []
-    for msg in new_messages:
-        text = render_message(msg)
-        if text:
-            rendered_new.append((msg.id, text))
+    def build_text_and_ranges(messages: list[Message]) -> tuple[str, list[tuple[int, int, str]]]:
+        text_parts: list[str] = []
+        message_ranges: list[tuple[int, int, str]] = []
+        position = 0
 
-    if not rendered_new:
-        return result
+        for index, message in enumerate(messages):
+            text = render_message(message)
+            if not text:
+                continue
 
-    # Message-based chunking: группируем по MSGS_PER_CHUNK сообщений
-    # с overlap MSGS_OVERLAP сообщений между чанками
-    MSGS_PER_CHUNK = 5
-    MSGS_OVERLAP = 2
+            if index > 0 and text_parts:
+                text_parts.append("\n")
+                position += 1
 
-    # Рендерим overlap для контекста
-    overlap_texts = []
-    for msg in overlap_messages[-MSGS_OVERLAP:]:
-        text = render_message(msg)
-        if text:
-            overlap_texts.append(text)
-    overlap_context = "\n".join(overlap_texts)
+            start = position
+            text_parts.append(text)
+            position += len(text)
+            message_ranges.append((start, position, message.id))
 
-    for start_idx in range(0, len(rendered_new), MSGS_PER_CHUNK - MSGS_OVERLAP):
-        chunk_msgs = rendered_new[start_idx : start_idx + MSGS_PER_CHUNK]
-        if not chunk_msgs:
+        return "".join(text_parts), message_ranges
+
+    def slice_tail(
+        text: str,
+        tail_size: int,
+    ) -> str:
+        if tail_size <= 0:
+            return ""
+
+        tail_start = max(0, len(text) - tail_size)
+        return text[tail_start:]
+
+    overlap_text, overlap_message_ranges = build_text_and_ranges(overlap_messages)
+    previous_chunk_text = slice_tail(overlap_text, OVERLAP_SIZE)
+
+    new_text, new_message_ranges = build_text_and_ranges(new_messages)
+
+    for start in range(0, len(new_text), CHUNK_SIZE):
+        chunk_body = new_text[start : start + CHUNK_SIZE]
+        if not chunk_body:
             continue
 
-        # Тело чанка из сообщений
-        chunk_body = "\n".join(text for _, text in chunk_msgs)
-        message_ids = [mid for mid, _ in chunk_msgs]
-
-        # Добавляем overlap контекст (предыдущие сообщения)
-        if start_idx == 0 and overlap_context:
-            chunk_text = overlap_context + "\n" + chunk_body
-        elif start_idx > 0:
-            # Overlap из предыдущих сообщений в rendered_new
-            prev_msgs = rendered_new[max(0, start_idx - MSGS_OVERLAP) : start_idx]
-            prev_text = "\n".join(text for _, text in prev_msgs)
-            chunk_text = prev_text + "\n" + chunk_body if prev_text else chunk_body
-        else:
-            chunk_text = chunk_body
+        chunk_body_ranges = [
+            (
+                max(message_start, start) - start,
+                min(message_end, start + len(chunk_body)) - start,
+                message_id,
+            )
+            for message_start, message_end, message_id in new_message_ranges
+            if message_end > start and message_start < start + len(chunk_body)
+        ]
+        chunk_overlap = previous_chunk_text
+        chunk_text = chunk_overlap
+        if chunk_text and chunk_body:
+            chunk_text += "\n"
+        chunk_text += chunk_body
 
         # dense_content обогащаем названием чата для лучшей семантики
         dense_text = f"[{chat.name}] {chunk_text}"
@@ -189,9 +202,10 @@ def build_chunks(
                 page_content=chunk_text,
                 dense_content=dense_text,
                 sparse_content=sparse_text,
-                message_ids=message_ids,
+                message_ids=[message_id for _, _, message_id in chunk_body_ranges],
             )
         )
+        previous_chunk_text = slice_tail(chunk_text, OVERLAP_SIZE)
 
     return result
 

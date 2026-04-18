@@ -175,7 +175,7 @@ app = FastAPI(title="Search Service", version="0.1.0", lifespan=lifespan)
 DENSE_PREFETCH_K = 50
 SPARSE_PREFETCH_K = 150
 RETRIEVE_K = 100
-RERANK_LIMIT = 20
+RERANK_LIMIT = 30
 
 async def embed_dense(client: httpx.AsyncClient, text: str) -> list[float]:
     # Dense endpoint ожидает OpenAI-compatible body с input как списком строк.
@@ -238,9 +238,11 @@ def embed_sparse_sync(text: str) -> SparseVector:
 
 
 def build_dense_query(question: Question) -> str:
-    """Формируем текст для dense embedding — семантический поиск."""
-    query = question.text.strip()
-    return query
+    """Формируем текст для dense embedding — семантический поиск.
+    Используем search_text если есть — он уже оптимизирован."""
+    if question.search_text:
+        return question.search_text
+    return question.text.strip()
 
 
 def build_sparse_query(question: Question) -> str:
@@ -257,8 +259,9 @@ async def qdrant_search(
     client: AsyncQdrantClient,
     dense_vectors: list[list[float]],
     sparse_vector: SparseVector,
+    question: Question | None = None,
 ) -> Any | None:
-    """Гибридный поиск с поддержкой нескольких dense векторов (HyDE/variants)."""
+    """Гибридный поиск с фильтрацией по метадате."""
     # Создаём prefetch для каждого dense вектора
     prefetch_list = []
     for dv in dense_vectors:
@@ -281,13 +284,47 @@ async def qdrant_search(
         )
     )
 
+    # Формируем фильтры из метадаты вопроса
+    must_conditions = []
+    if question and question.date_range:
+        try:
+            must_conditions.append(
+                models.FieldCondition(
+                    key="metadata.end",
+                    range=models.Range(gte=question.date_range.from_),
+                )
+            )
+            must_conditions.append(
+                models.FieldCondition(
+                    key="metadata.start",
+                    range=models.Range(lte=question.date_range.to),
+                )
+            )
+        except Exception as e:
+            logger.warning(f"Date filter failed: {e}")
+
+    query_filter = models.Filter(must=must_conditions) if must_conditions else None
+
     response = await client.query_points(
         collection_name=QDRANT_COLLECTION_NAME,
         prefetch=prefetch_list,
         query=models.FusionQuery(fusion=models.Fusion.RRF),
+        query_filter=query_filter,
         limit=RETRIEVE_K,
         with_payload=True,
     )
+
+    if not response.points:
+        # Если с фильтром ничего не нашли — попробуем без фильтра
+        if query_filter is not None:
+            logger.info("No results with filter, retrying without")
+            response = await client.query_points(
+                collection_name=QDRANT_COLLECTION_NAME,
+                prefetch=prefetch_list,
+                query=models.FusionQuery(fusion=models.Fusion.RRF),
+                limit=RETRIEVE_K,
+                with_payload=True,
+            )
 
     if not response.points:
         return None
@@ -408,8 +445,8 @@ async def search(payload: SearchAPIRequest) -> SearchAPIResponse:
         except Exception as e:
             logger.warning(f"HyDE embedding failed: {e}")
 
-    # Поиск в Qdrant
-    all_points = await qdrant_search(qdrant, dense_vectors, sparse_vector)
+    # Поиск в Qdrant (с фильтрацией по метадате)
+    all_points = await qdrant_search(qdrant, dense_vectors, sparse_vector, question)
 
     if all_points is None:
         return SearchAPIResponse(results=[])
