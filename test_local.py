@@ -117,18 +117,25 @@ def index_chat(chat_data: dict) -> list[dict]:
 
 
 def get_dense_embeddings(texts: list[str]) -> list[list[float]]:
-    """Получаем dense эмбеддинги от VK API."""
-    r = httpx.post(
-        DENSE_URL,
-        json={"model": DENSE_MODEL, "input": texts},
-        auth=(LOGIN, PASSWORD),
-        timeout=60,
-    )
-    r.raise_for_status()
-    data = r.json()["data"]
-    # Сортируем по index
-    data.sort(key=lambda x: x["index"])
-    return [item["embedding"] for item in data]
+    """Получаем dense эмбеддинги от VK API с retry."""
+    for attempt in range(3):
+        try:
+            r = httpx.post(
+                DENSE_URL,
+                json={"model": DENSE_MODEL, "input": texts},
+                auth=(LOGIN, PASSWORD),
+                timeout=120,
+            )
+            r.raise_for_status()
+            data = r.json()["data"]
+            data.sort(key=lambda x: x["index"])
+            return [item["embedding"] for item in data]
+        except Exception as e:
+            if attempt < 2:
+                wait = 3 * (attempt + 1)
+                time.sleep(wait)
+            else:
+                raise
 
 
 def get_sparse_embeddings(texts: list[str]) -> list[dict]:
@@ -147,13 +154,13 @@ def insert_into_qdrant(chunks: list[dict]):
     if not chunks:
         return 0
     
-    # Dense эмбеддинги (батчами по 10)
+    # Dense эмбеддинги (батчами по 5)
     dense_texts = [c["dense_content"] for c in chunks]
     sparse_texts = [c["sparse_content"] for c in chunks]
     
     all_dense = []
-    for i in range(0, len(dense_texts), 10):
-        batch = dense_texts[i:i+10]
+    for i in range(0, len(dense_texts), 5):
+        batch = dense_texts[i:i+5]
         try:
             embeddings = get_dense_embeddings(batch)
             all_dense.extend(embeddings)

@@ -196,6 +196,22 @@ async def embed_dense(client: httpx.AsyncClient, text: str) -> list[float]:
     return payload.data[0].embedding
 
 
+async def embed_dense_batch(client: httpx.AsyncClient, texts: list[str]) -> list[list[float]]:
+    """Батчевый dense embedding для HyDE/variants."""
+    response = await client.post(
+        EMBEDDINGS_DENSE_URL,
+        **get_upstream_request_kwargs(),
+        json={
+            "model": os.getenv("EMBEDDINGS_DENSE_MODEL", EMBEDDINGS_DENSE_MODEL),
+            "input": texts,
+        },
+    )
+    response.raise_for_status()
+    payload = DenseEmbeddingResponse.model_validate(response.json())
+    payload.data.sort(key=lambda x: x.index)
+    return [item.embedding for item in payload.data]
+
+
 async def embed_sparse(text: str) -> SparseVector:
     vectors = list(get_sparse_model().embed([text]))
     if not vectors:
@@ -208,28 +224,67 @@ async def embed_sparse(text: str) -> SparseVector:
     )
 
 
+def embed_sparse_sync(text: str) -> SparseVector:
+    """Синхронная версия для asyncio.to_thread."""
+    vectors = list(get_sparse_model().embed([text]))
+    if not vectors:
+        raise ValueError("Sparse embedding response is empty")
+
+    item = vectors[0]
+    return SparseVector(
+        indices=[int(index) for index in item.indices.tolist()],
+        values=[float(value) for value in item.values.tolist()],
+    )
+
+
+def build_dense_query(question: Question) -> str:
+    """Формируем текст для dense embedding — семантический поиск."""
+    query = question.text.strip()
+    return query
+
+
+def build_sparse_query(question: Question) -> str:
+    """Формируем текст для sparse embedding — keyword matching.
+    Обогащаем ключевыми словами для лучшего BM25."""
+    parts = [question.text.strip()]
+    if question.keywords:
+        parts.extend(question.keywords)
+    if question.search_text:
+        parts = [question.search_text]  # уже обработанный текст
+    return " ".join(parts)
+
+
 async def qdrant_search(
     client: AsyncQdrantClient,
-    dense_vector: list[float],
+    dense_vectors: list[list[float]],
     sparse_vector: SparseVector,
 ) -> Any | None:
-    response = await client.query_points(
-        collection_name=QDRANT_COLLECTION_NAME,
-        prefetch=[
+    """Гибридный поиск с поддержкой нескольких dense векторов (HyDE/variants)."""
+    # Создаём prefetch для каждого dense вектора
+    prefetch_list = []
+    for dv in dense_vectors:
+        prefetch_list.append(
             models.Prefetch(
-                query=dense_vector,
+                query=dv,
                 using=QDRANT_DENSE_VECTOR_NAME,
                 limit=DENSE_PREFETCH_K,
+            )
+        )
+    # Sparse prefetch
+    prefetch_list.append(
+        models.Prefetch(
+            query=models.SparseVector(
+                indices=sparse_vector.indices,
+                values=sparse_vector.values,
             ),
-            models.Prefetch(
-                query=models.SparseVector(
-                    indices=sparse_vector.indices,
-                    values=sparse_vector.values,
-                ),
-                using=QDRANT_SPARSE_VECTOR_NAME,
-                limit=SPARSE_PREFETCH_K,
-            ),
-        ],
+            using=QDRANT_SPARSE_VECTOR_NAME,
+            limit=SPARSE_PREFETCH_K,
+        )
+    )
+
+    response = await client.query_points(
+        collection_name=QDRANT_COLLECTION_NAME,
+        prefetch=prefetch_list,
         query=models.FusionQuery(fusion=models.Fusion.RRF),
         limit=RETRIEVE_K,
         with_payload=True,
@@ -314,26 +369,53 @@ async def health() -> dict[str, str]:
 
 @app.post("/search", response_model=SearchAPIResponse)
 async def search(payload: SearchAPIRequest) -> SearchAPIResponse:
-    query = payload.question.text.strip()
+    question = payload.question
+    query = question.text.strip()
     if not query:
         raise HTTPException(status_code=400, detail="question.text is required")
 
     client: httpx.AsyncClient = app.state.http
     qdrant: AsyncQdrantClient = app.state.qdrant
 
-    dense_vector = await embed_dense(client, query)
-    sparse_vector = await embed_sparse(query)
-    best_points = await qdrant_search(qdrant, dense_vector, sparse_vector)
+    # Формируем разные тексты для dense и sparse
+    dense_query = build_dense_query(question)
+    sparse_query = build_sparse_query(question)
 
-    if best_points is None:
+    # Параллельный embedding: dense + sparse одновременно
+    dense_task = embed_dense(client, dense_query)
+    sparse_task = asyncio.to_thread(lambda: embed_sparse_sync(sparse_query))
+    dense_vector, sparse_vector = await asyncio.gather(dense_task, sparse_task)
+
+    # Собираем все dense векторы (основной + HyDE если есть)
+    dense_vectors = [dense_vector]
+    if question.hyde and len(question.hyde) > 0:
+        try:
+            hyde_texts = question.hyde[:2]  # максимум 2 HyDE вектора
+            hyde_vectors = await embed_dense_batch(client, hyde_texts)
+            dense_vectors.extend(hyde_vectors)
+        except Exception as e:
+            logger.warning(f"HyDE embedding failed: {e}")
+
+    # Поиск в Qdrant
+    all_points = await qdrant_search(qdrant, dense_vectors, sparse_vector)
+
+    if all_points is None:
         return SearchAPIResponse(results=[])
 
-    best_points = await rerank_points(client, query, list(best_points))
+    all_points = list(all_points)
+
+    # Rerank top кандидатов
+    reranked = await rerank_points(client, query, all_points)
+
+    # Добавляем оставшиеся (не-reranked) точки после reranked для лучшего recall
+    reranked_ids = {id(p) for p in reranked}
+    remaining = [p for p in all_points if id(p) not in reranked_ids]
+    final_points = reranked + remaining
 
     # Дедупликация message_ids с сохранением порядка релевантности
     seen: set[str] = set()
     message_ids: list[str] = []
-    for point in best_points:
+    for point in final_points:
         for mid in extract_message_ids(point):
             if mid not in seen:
                 seen.add(mid)

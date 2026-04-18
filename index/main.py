@@ -97,27 +97,32 @@ FASTEMBED_CACHE_PATH = "/models/fastembed"
 UVICORN_WORKERS=8
 
 def render_message(message: Message) -> str:
-    text = ""
+    parts_list: list[str] = []
+
+    # Добавляем sender для контекста (имя до @)
+    if message.sender_id:
+        sender_name = message.sender_id.split("@")[0].replace(".", " ")
+        parts_list.append(f"[{sender_name}]:")
 
     if message.text:
-        text += message.text
+        parts_list.append(message.text)
 
     if message.parts:
-        parts_text: list[str] = []
         for part in message.parts:
             media_type = part.get("mediaType", "text")
             part_text = part.get("text")
             if isinstance(part_text, str) and part_text:
                 if media_type == "forward":
-                    parts_text.append(f"[Пересланное]: {part_text}")
+                    parts_list.append(f"[Пересланное]: {part_text}")
                 elif media_type == "quote":
-                    parts_text.append(f"[Цитата]: {part_text}")
+                    parts_list.append(f"[Цитата]: {part_text}")
                 else:
-                    parts_text.append(part_text)
-        if parts_text:
-            text += "\n".join(parts_text)
+                    parts_list.append(part_text)
 
-    return text.strip()
+    if message.file_snippets:
+        parts_list.append(f"[Файл]: {message.file_snippets}")
+
+    return " ".join(parts_list).strip()
 
 
 def build_chunks(
